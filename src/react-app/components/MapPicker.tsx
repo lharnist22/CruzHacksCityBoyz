@@ -15,7 +15,7 @@ L.Icon.Default.mergeOptions({
 });
 
 interface MapPickerProps {
-  onLocationSelect: (lat: number, lng: number, address: string) => void;
+  onLocationSelect: (lat: number, lng: number, address: string, county?: string, state?: string) => void;
   selectedLat?: number;
   selectedLng?: number;
 }
@@ -58,7 +58,9 @@ export default function MapPicker({
         );
         const data = await response.json();
         const address = data.display_name || `${lat.toFixed(4)}, ${lng.toFixed(4)}`;
-        onLocationSelect(lat, lng, address);
+        const county = data.address?.county || data.address?.city || undefined;
+        const state = data.address?.state || undefined;
+        onLocationSelect(lat, lng, address, county, state);
       } catch (error) {
         onLocationSelect(lat, lng, `${lat.toFixed(4)}, ${lng.toFixed(4)}`);
       }
@@ -102,7 +104,9 @@ export default function MapPicker({
               );
               const data = await response.json();
               const address = data.display_name || `${lat.toFixed(4)}, ${lng.toFixed(4)}`;
-              onLocationSelect(lat, lng, address);
+              const county = data.address?.county || data.address?.city || undefined;
+              const state = data.address?.state || undefined;
+              onLocationSelect(lat, lng, address, county, state);
             } catch (error) {
               onLocationSelect(lat, lng, `${lat.toFixed(4)}, ${lng.toFixed(4)}`);
             }
