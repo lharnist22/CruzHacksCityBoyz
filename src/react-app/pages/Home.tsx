@@ -5,6 +5,7 @@ import { useLanguage } from "@/react-app/contexts/LanguageContext";
 import ReportForm from "@/react-app/components/ReportForm";
 import ReportFeed from "@/react-app/components/ReportFeed";
 import MeltingIceCube from "@/react-app/components/MeltingIceCube";
+import NotificationSettings from "@/react-app/components/NotificationSettings";
 
 interface RaidReport {
   id: number;
@@ -234,6 +235,10 @@ export default function HomePage() {
                   </p>
                 </div>
               </a>
+            </div>
+            
+            <div className="mt-8 mb-8">
+              <NotificationSettings />
             </div>
 
             <div className="flex items-center justify-between mb-6">

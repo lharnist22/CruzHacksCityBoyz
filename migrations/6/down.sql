@@ -1,0 +1,5 @@
+
+DROP INDEX idx_user_notifications_county;
+DROP INDEX idx_user_notifications_state;
+DROP INDEX idx_user_notifications_user_id;
+DROP TABLE user_notification_preferences;
