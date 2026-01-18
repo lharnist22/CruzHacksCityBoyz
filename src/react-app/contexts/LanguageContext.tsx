@@ -5,7 +5,7 @@ type Language = "es" | "en";
 interface LanguageContextType {
   language: Language;
   setLanguage: (lang: Language) => void;
-  t: (key: string) => string;
+  t: (key: string, params?: Record<string, string>) => string;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
@@ -14,6 +14,7 @@ const translations = {
   es: {
     // Navigation
     "nav.signout": "Cerrar sesión",
+    "nav.news": "Noticias",
     
     // Landing page
     "landing.title": "SafeWatch",
@@ -80,10 +81,34 @@ const translations = {
     "feed.verified": "Verificado",
     "feed.flagged": "Señalado como posible desinformación",
     "feed.reports": "reportes",
+    
+    // News page
+    "news.title": "Noticias",
+    "news.local_news_desc": "Noticias locales sobre redadas y arrestos de ICE en {city}, {state}",
+    "news.general_news_desc": "Noticias generales sobre redadas y arrestos de ICE en Estados Unidos",
+    "news.default_trusted_sources_desc": "Noticias destacadas sobre ICE de New York Times, Washington Post, USA Today y Human Rights Watch",
+    "news.location_denied": "Permiso de ubicación denegado:",
+    "news.location_denied_desc": "Mostrando noticias generales sobre ICE en Estados Unidos. Para ver noticias locales, permite el acceso a tu ubicación.",
+    "news.loading": "Cargando noticias...",
+    "news.error_fetch": "Error al cargar noticias. Por favor, intenta de nuevo más tarde.",
+    "news.no_articles": "No se encontraron artículos en este momento.",
+    "news.back_to_reports": "Volver a reportes",
+    
+    // SMS notifications
+    "sms.title": "Notificaciones por SMS",
+    "sms.description": "Prueba nuestro servicios.",
+    "sms.phone_placeholder": "+1234567890",
+    "sms.send_test": "Envia",
+    "sms.sending": "Enviando...",
+    "sms.success_message": "¡Mensaje enviado exitosamente! Revisa tu teléfono.",
+    "sms.error_phone_required": "Por favor, ingresa un número de teléfono.",
+    "sms.error_send": "Error al enviar el mensaje. Por favor, verifica el número e intenta de nuevo.",
+    "sms.format_hint": "Formato: +[código de país][número] (ejemplo: +1234567890)",
   },
   en: {
     // Navigation
     "nav.signout": "Sign out",
+    "nav.news": "News",
     
     // Landing page
     "landing.title": "SafeWatch",
@@ -150,6 +175,29 @@ const translations = {
     "feed.verified": "Verified",
     "feed.flagged": "Flagged as potential misinformation",
     "feed.reports": "reports",
+    
+    // News page
+    "news.title": "News",
+    "news.local_news_desc": "Local news about ICE raids and arrests in {city}, {state}",
+    "news.general_news_desc": "General news about ICE raids and arrests in the United States",
+    "news.default_trusted_sources_desc": "Top ICE articles from New York Times, Washington Post, USA Today, and Human Rights Watch",
+    "news.location_denied": "Location permission denied:",
+    "news.location_denied_desc": "Showing general ICE news in the United States. To see local news, please allow location access.",
+    "news.loading": "Loading news...",
+    "news.error_fetch": "Failed to load news. Please try again later.",
+    "news.no_articles": "No articles found at this time.",
+    "news.back_to_reports": "Back to Reports",
+    
+    // SMS notifications
+    "sms.title": "SMS Notifications",
+    "sms.description": "Test our SMS notification service. Send a test message to your phone number.",
+    "sms.phone_placeholder": "+1234567890",
+    "sms.send_test": "Send Test Message",
+    "sms.sending": "Sending...",
+    "sms.success_message": "Message sent successfully! Check your phone.",
+    "sms.error_phone_required": "Please enter a phone number.",
+    "sms.error_send": "Failed to send message. Please verify the number and try again.",
+    "sms.format_hint": "Format: +[country code][number] (e.g., +1234567890)",
   },
 };
 
@@ -163,8 +211,14 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     localStorage.setItem("language", language);
   }, [language]);
 
-  const t = (key: string): string => {
-    return translations[language][key as keyof typeof translations.es] || key;
+  const t = (key: string, params?: Record<string, string>): string => {
+    let text = translations[language][key as keyof typeof translations.es] || key;
+    if (params) {
+      Object.entries(params).forEach(([param, value]) => {
+        text = text.replace(`{${param}}`, value);
+      });
+    }
+    return text;
   };
 
   return (
