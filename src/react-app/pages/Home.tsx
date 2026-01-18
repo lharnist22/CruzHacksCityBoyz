@@ -25,7 +25,12 @@ interface RaidReport {
 }
 
 export default function HomePage() {
-  const { user, isPending, redirectToLogin, logout } = useAuth();
+    // TEMP HACK (for local demo): bypass auth
+  const user = { email: "demo@hackathon.dev" } as any;
+  const isPending = false;
+  const redirectToLogin = () => {};
+  const logout = () => {};
+  //const { user, isPending, redirectToLogin, logout } = useAuth();
   const { language, setLanguage, t } = useLanguage();
   const [reports, setReports] = useState<RaidReport[]>([]);
   const [allReports, setAllReports] = useState<RaidReport[]>([]);
