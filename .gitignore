@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+
+# Cloudflare / Wrangler
+.wrangler/
+
+# Editor config
+.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# Package-lock.json
+package-lock.json
+
