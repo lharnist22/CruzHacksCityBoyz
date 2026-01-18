@@ -1,0 +1,3 @@
+
+DROP INDEX idx_user_notification_preferences_user_id;
+DROP TABLE user_notification_preferences;

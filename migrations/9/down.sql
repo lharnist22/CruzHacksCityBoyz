@@ -1,0 +1,5 @@
+
+ALTER TABLE user_notification_preferences DROP COLUMN receive_sms_notifications;
+ALTER TABLE user_notification_preferences DROP COLUMN notification_county;
+ALTER TABLE user_notification_preferences DROP COLUMN notification_state;
+ALTER TABLE user_notification_preferences DROP COLUMN phone_number;

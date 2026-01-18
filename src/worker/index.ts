@@ -8,18 +8,7 @@ import {
 } from "@getmocha/users-service/backend";
 import { getCookie, setCookie } from "hono/cookie";
 import { v4 as uuidv4 } from "uuid";
-import { NotificationService } from '@/worker/services/NotificationService';
-
-type Env = {
-  MOCHA_USERS_SERVICE_API_URL: string;
-  MOCHA_USERS_SERVICE_API_KEY: string;
-  NEWS_API_KEY?: string;
-  TWILIO_ACCOUNT_SID?: string;
-  TWILIO_AUTH_TOKEN?: string;
-  TWILIO_PHONE_NUMBER?: string;
-  DB: any; // D1Database - provided by Cloudflare Workers
-  R2_BUCKET: any; // R2Bucket - provided by Cloudflare Workers
-};
+import { NotificationService } from './Services/NotificationService';
 
 const app = new Hono<{ Bindings: Env }>();
 
@@ -199,12 +188,18 @@ app.post("/api/twilio/webhook", async (c) => {
   return c.text(`Unknown command. For help, reply HELP. To unsubscribe, reply STOP.`);
 });
 
-// Raid Reports API
+// ==================== RAID REPORTS ENDPOINTS ====================
 
 // Create a new raid report
 app.post(
   "/api/raid-reports",
+  authMiddleware,
   async (c) => {
+    const user = c.get("user");
+    if (!user) {
+      return c.json({ error: "Unauthorized" }, 401);
+    }
+
     const formData = await c.req.formData();
     
     const location = formData.get("location") as string;
@@ -218,18 +213,6 @@ app.post(
     
     if (!location || isNaN(latitude) || isNaN(longitude) || !date || !time) {
       return c.json({ error: "Missing required fields" }, 400);
-    }
-
-    // Get user if authenticated, otherwise use anonymous
-    let userId = "anonymous";
-    try {
-      const user = c.get("user");
-      if (user && user.id) {
-        userId = user.id;
-      }
-    } catch {
-      // Not authenticated, use anonymous
-      userId = "anonymous";
     }
 
     // Handle image uploads
@@ -270,7 +253,7 @@ app.post(
       "INSERT INTO raid_reports (user_id, location, latitude, longitude, county, state, date, time, description, image_keys) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
     )
       .bind(
-        userId, 
+        user.id, 
         location, 
         latitude, 
         longitude, 
@@ -307,7 +290,7 @@ app.post(
 );
 
 // Get all raid reports (most recent first)
-app.get("/api/raid-reports", async (c) => {
+app.get("/api/raid-reports", authMiddleware, async (c) => {
   const state = c.req.query("state");
   const county = c.req.query("county");
   
@@ -324,7 +307,7 @@ app.get("/api/raid-reports", async (c) => {
     params.push(county);
   }
   
-  query += " ORDER BY created_at DESC LIMIT 100";
+  query += " ORDER BY created_at DESC";
   
   const { results } = await c.env.DB.prepare(query).bind(...params).all();
 
@@ -394,213 +377,68 @@ app.get("/api/images/:key{.+}", async (c) => {
   return c.body(object.body, { headers });
 });
 
-// Hardcoded fallback articles - manually curated ICE news
-const FALLBACK_ARTICLES = [
-  {
-    title: "ICE Raids and Immigration Enforcement in the United States",
-    description: "Recent developments in immigration enforcement and ICE operations across the country.",
-    url: "https://www.nytimes.com/topic/organization/us-immigration-and-customs-enforcement",
-    urlToImage: null,
-    publishedAt: new Date().toISOString(),
-    source: "New York Times",
-  },
-  {
-    title: "Immigration and Customs Enforcement News",
-    description: "Latest news and analysis on ICE operations and immigration policy.",
-    url: "https://www.washingtonpost.com/politics/immigration/",
-    urlToImage: null,
-    publishedAt: new Date().toISOString(),
-    source: "Washington Post",
-  },
-  {
-    title: "ICE Arrests and Deportation News",
-    description: "Coverage of immigration enforcement actions and policy changes.",
-    url: "https://www.usatoday.com/topic/immigration/",
-    urlToImage: null,
-    publishedAt: new Date().toISOString(),
-    source: "USA Today",
-  },
-  {
-    title: "Human Rights Watch: Immigration Detention in the United States",
-    description: "Reports on immigration detention conditions and human rights concerns.",
-    url: "https://www.hrw.org/topic/immigration",
-    urlToImage: null,
-    publishedAt: new Date().toISOString(),
-    source: "Human Rights Watch",
-  },
-  // TO ADD MORE ARTICLES: Copy the format above and paste below. Example:
-  // {
-  //   title: "Your Article Title Here",
-  //   description: "Brief description of the article",
-  //   url: "https://example.com/article-url",
-  //   urlToImage: null, // or "https://example.com/image.jpg" if you have an image
-  //   publishedAt: new Date().toISOString(), // or specific date like "2024-01-15T00:00:00Z"
-  //   source: "Publication Name",
-  // },
-];
+// ==================== NEWS ENDPOINTS ====================
 
 // Get news articles
-app.get("/api/news", async (c) => {
-  const latitude = c.req.query("latitude");
-  const longitude = c.req.query("longitude");
+app.get("/api/news", authMiddleware, async (c) => {
   const city = c.req.query("city");
   const state = c.req.query("state");
+
+  const apiKey = c.env.NEWS_API_KEY;
   
-  const newsApiKey = c.env.NEWS_API_KEY;
-  
-  // If no API key, return fallback articles
-  if (!newsApiKey) {
-    return c.json({
-      articles: FALLBACK_ARTICLES,
-      totalResults: FALLBACK_ARTICLES.length,
-    });
-  }
-
-  // Trusted sources: NYT, Washington Post, USA Today, Human Rights Watch
-  const trustedSources = "nytimes.com,washingtonpost.com,usatoday.com,hrw.org";
-  const defaultQuery = `"ICE" OR "immigration" OR "raid" OR "arrest" "United States" OR "US"`;
-
-  // If location is provided, try local news first
-  if (latitude && longitude && city && state) {
-    try {
-      const localQuery = `"ICE" OR "immigration" OR "raid" OR "arrest" (${city} OR ${state})`;
-      const localUrl = `https://newsapi.org/v2/everything?q=${encodeURIComponent(localQuery)}&language=en&sortBy=publishedAt&pageSize=20&apiKey=${newsApiKey}`;
-      
-      const localResponse = await fetch(localUrl);
-      const localData = await localResponse.json();
-      
-      // If we have local results, return them
-      if (localData.status === "ok" && localData.articles && localData.articles.length > 0) {
-        return c.json({
-          articles: localData.articles.map((article: any) => ({
-            title: article.title,
-            description: article.description,
-            url: article.url,
-            urlToImage: article.urlToImage,
-            publishedAt: article.publishedAt,
-            source: article.source?.name || "Unknown",
-          })),
-          totalResults: localData.totalResults,
-        });
-      }
-      
-      // If no local results, fall through to default news from trusted sources
-    } catch (error) {
-      console.error("NewsAPI local news error:", error);
-      // Fall through to default news
-    }
-  }
-
-  // Fetch default news from trusted sources (NYT, Washington Post, USA Today, Human Rights Watch)
-  try {
-    const defaultUrl = `https://newsapi.org/v2/everything?q=${encodeURIComponent(defaultQuery)}&domains=${trustedSources}&language=en&sortBy=publishedAt&pageSize=20&apiKey=${newsApiKey}`;
-    
-    const response = await fetch(defaultUrl);
-    const data = await response.json();
-    
-    if (data.status === "ok" && data.articles && data.articles.length > 0) {
-      return c.json({
-        articles: data.articles.map((article: any) => ({
-          title: article.title,
-          description: article.description,
-          url: article.url,
-          urlToImage: article.urlToImage,
-          publishedAt: article.publishedAt,
-          source: article.source?.name || "Unknown",
-        })),
-        totalResults: data.totalResults,
-      });
-    }
-  } catch (error) {
-    console.error("NewsAPI default news error:", error);
-  }
-  
-  // Final fallback: return hardcoded articles
-  return c.json({
-    articles: FALLBACK_ARTICLES,
-    totalResults: FALLBACK_ARTICLES.length,
-  });
-});
-
-// Send SMS via Twilio
-app.post("/api/sms/send", async (c) => {
-  const body = await c.req.json();
-  const { phoneNumber, message } = body;
-
-  if (!phoneNumber) {
-    return c.json({ error: "Phone number is required" }, 400);
-  }
-
-  if (!message) {
-    return c.json({ error: "Message is required" }, 400);
-  }
-
-  // Validate phone number format (basic validation)
-  const phoneRegex = /^\+?[1-9]\d{1,14}$/;
-  if (!phoneRegex.test(phoneNumber.replace(/[\s\-\(\)]/g, ""))) {
-    return c.json({ error: "Invalid phone number format. Please use E.164 format (e.g., +1234567890)" }, 400);
-  }
-
-  const twilioAccountSid = c.env.TWILIO_ACCOUNT_SID;
-  const twilioAuthToken = c.env.TWILIO_AUTH_TOKEN;
-  const twilioPhoneNumber = c.env.TWILIO_PHONE_NUMBER;
-
-  if (!twilioAccountSid || !twilioAuthToken || !twilioPhoneNumber) {
+  if (!apiKey) {
     return c.json({ 
-      error: "Twilio not configured. Please set TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, and TWILIO_PHONE_NUMBER environment variables." 
+      message: "News API key not configured",
+      articles: []
     }, 500);
   }
 
   try {
-    // Format phone number (ensure it starts with +)
-    // Remove all non-digit characters except +
-    let cleanedPhone = phoneNumber.replace(/[^\d+]/g, "");
-    
-    // If it doesn't start with +, add it
-    if (!cleanedPhone.startsWith("+")) {
-      // If it starts with 1 (US country code), remove it and add +
-      if (cleanedPhone.startsWith("1") && cleanedPhone.length === 11) {
-        cleanedPhone = `+${cleanedPhone.substring(1)}`;
-      } else {
-        cleanedPhone = `+${cleanedPhone}`;
+    let articles: any[] = [];
+
+    // Try to fetch local news if location is provided
+    if (city && state) {
+      const localQuery = `${city} ${state} immigration OR ICE OR deportation OR border patrol`;
+      const localUrl = `https://newsapi.org/v2/everything?q=${encodeURIComponent(localQuery)}&language=en&sortBy=publishedAt&pageSize=20&apiKey=${apiKey}`;
+      
+      const localResponse = await fetch(localUrl);
+      const localData = await localResponse.json() as any;
+      
+      if (localData.status === 'ok' && localData.articles && localData.articles.length > 0) {
+        articles = localData.articles;
       }
     }
 
-    // Twilio API endpoint
-    const url = `https://api.twilio.com/2010-04-01/Accounts/${twilioAccountSid}/Messages.json`;
-    
-    const formData = new URLSearchParams();
-    formData.append("From", twilioPhoneNumber);
-    formData.append("To", cleanedPhone);
-    formData.append("Body", message);
-
-    const response = await fetch(url, {
-      method: "POST",
-      headers: {
-        "Authorization": `Basic ${btoa(`${twilioAccountSid}:${twilioAuthToken}`)}`,
-        "Content-Type": "application/x-www-form-urlencoded",
-      },
-      body: formData.toString(),
-    });
-
-    const data = await response.json();
-
-    if (!response.ok) {
-      return c.json({ 
-        error: data.message || "Failed to send SMS",
-        details: data 
-      }, response.status);
+    // If no local news or no location, fetch from trusted sources about immigration
+    if (articles.length === 0) {
+      const trustedSources = 'the-new-york-times,the-washington-post,usa-today';
+      const query = 'immigration OR ICE OR deportation OR asylum OR border';
+      const trustedUrl = `https://newsapi.org/v2/everything?q=${encodeURIComponent(query)}&sources=${trustedSources}&language=en&sortBy=publishedAt&pageSize=20&apiKey=${apiKey}`;
+      
+      const trustedResponse = await fetch(trustedUrl);
+      const trustedData = await trustedResponse.json() as any;
+      
+      if (trustedData.status === 'ok' && trustedData.articles) {
+        articles = trustedData.articles;
+      }
     }
 
-    return c.json({ 
-      success: true,
-      messageSid: data.sid,
-      status: data.status 
-    }, 200);
+    // Format articles
+    const formattedArticles = articles.map((article: any) => ({
+      title: article.title,
+      description: article.description,
+      url: article.url,
+      urlToImage: article.urlToImage,
+      publishedAt: article.publishedAt,
+      source: article.source?.name || 'Unknown Source',
+    }));
+
+    return c.json({ articles: formattedArticles });
   } catch (error) {
-    console.error("Twilio error:", error);
+    console.error('Error fetching news:', error);
     return c.json({ 
-      error: "Failed to send SMS. Please try again later." 
+      message: "Failed to fetch news",
+      articles: []
     }, 500);
   }
 });

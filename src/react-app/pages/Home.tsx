@@ -1,11 +1,11 @@
-<<<<<<< HEAD
 import { useAuth } from "@getmocha/users-service/react";
-import { AlertCircle, Building2, ExternalLink } from "lucide-react";
+import { MapPin, Clock, Calendar, AlertCircle, Building2, ExternalLink, Newspaper } from "lucide-react";
 import { useState, useEffect } from "react";
 import { useLanguage } from "@/react-app/contexts/LanguageContext";
 import ReportForm from "@/react-app/components/ReportForm";
 import ReportFeed from "@/react-app/components/ReportFeed";
 import MeltingIceCube from "@/react-app/components/MeltingIceCube";
+import NotificationSettings from "@/react-app/components/NotificationSettings";
 
 interface RaidReport {
   id: number;
@@ -26,7 +26,16 @@ interface RaidReport {
 }
 
 export default function HomePage() {
-  const { isPending } = useAuth();
+  const { user, isPending, redirectToLogin, logout } = useAuth();
+
+  // TEMP HACK (for local demo): bypass auth
+  /*
+  const user = { email: "demo@hackathon.dev" } as any;
+  const isPending = false;
+  const redirectToLogin = () => {};
+  const logout = () => {};
+  */
+
   const { language, setLanguage, t } = useLanguage();
   const [reports, setReports] = useState<RaidReport[]>([]);
   const [allReports, setAllReports] = useState<RaidReport[]>([]);
@@ -35,6 +44,8 @@ export default function HomePage() {
   const [selectedState, setSelectedState] = useState<string>("");
   const [selectedCounty, setSelectedCounty] = useState<string>("");
   const [sortOrder, setSortOrder] = useState<"newest" | "oldest">("newest");
+
+  const pageBg = "bg-black";
 
   const fetchReports = async () => {
     try {
@@ -52,19 +63,14 @@ export default function HomePage() {
   };
 
   useEffect(() => {
-    fetchReports();
-  }, []);
+    if (user) fetchReports();
+  }, [user]);
 
   useEffect(() => {
     let filtered = allReports;
 
-    if (selectedState) {
-      filtered = filtered.filter((r) => r.state === selectedState);
-    }
-
-    if (selectedCounty) {
-      filtered = filtered.filter((r) => r.county === selectedCounty);
-    }
+    if (selectedState) filtered = filtered.filter((r) => r.state === selectedState);
+    if (selectedCounty) filtered = filtered.filter((r) => r.county === selectedCounty);
 
     const sorted = [...filtered].sort((a, b) => {
       const dateA = new Date(a.created_at).getTime();
@@ -80,9 +86,7 @@ export default function HomePage() {
     fetchReports();
   };
 
-  const uniqueStates = Array.from(
-    new Set(allReports.map((r) => r.state).filter((s): s is string => Boolean(s)))
-  ).sort();
+  const uniqueStates = Array.from(new Set(allReports.map((r) => r.state).filter((s): s is string => Boolean(s)))).sort();
 
   const uniqueCounties = Array.from(
     new Set(
@@ -93,39 +97,111 @@ export default function HomePage() {
     )
   ).sort();
 
-  const pageBg =
-    "bg-neutral-950 bg-[radial-gradient(ellipse_at_top,rgba(59,130,246,0.18),transparent_55%)]";
-
   if (isPending) {
     return (
       <div className={`min-h-screen flex items-center justify-center ${pageBg}`}>
-        <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-blue-300"></div>
+        <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-blue-400"></div>
       </div>
     );
   }
 
+  // ---------- Logged OUT ----------
+  if (!user) {
+    return (
+      <div className={`min-h-screen ${pageBg}`}>
+        <div className="container mx-auto px-4 py-16">
+          <div className="max-w-4xl mx-auto text-center">
+            <div className="mb-8 flex justify-end">
+              <button
+                onClick={() => setLanguage(language === "es" ? "en" : "es")}
+                className="bg-zinc-900 hover:bg-zinc-800 text-white px-4 py-2 rounded-lg transition-colors font-medium border border-zinc-800"
+              >
+                {language === "es" ? "EN" : "ES"}
+              </button>
+            </div>
+
+            <div className="mb-8">
+              <div className="mx-auto mb-4 flex justify-center">
+                <MeltingIceCube className="w-20 h-20" />
+              </div>
+
+              <h1 className="text-5xl font-bold mb-4 text-blue-400">
+                {t("landing.title")}
+              </h1>
+
+              <p className="text-xl text-gray-300 mb-8">{t("landing.subtitle")}</p>
+            </div>
+
+            <div className="bg-zinc-900/50 backdrop-blur-lg rounded-2xl p-8 shadow-2xl border border-zinc-800 mb-12">
+              <h2 className="text-2xl font-semibold text-white mb-4">{t("landing.stay_informed")}</h2>
+              <p className="text-gray-300 mb-6">{t("landing.description")}</p>
+
+              <button
+                onClick={redirectToLogin}
+                className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg transition-all transform hover:scale-105 shadow-lg"
+              >
+                {t("landing.signin")}
+              </button>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-zinc-900/50 backdrop-blur-sm rounded-xl p-6 border border-zinc-800">
+                <MapPin className="w-10 h-10 text-blue-400 mb-3 mx-auto" />
+                <h3 className="text-lg font-semibold text-white mb-2">{t("landing.track_locations")}</h3>
+                <p className="text-gray-300 text-sm">{t("landing.track_desc")}</p>
+              </div>
+
+              <div className="bg-zinc-900/50 backdrop-blur-sm rounded-xl p-6 border border-zinc-800">
+                <Clock className="w-10 h-10 text-blue-400 mb-3 mx-auto" />
+                <h3 className="text-lg font-semibold text-white mb-2">{t("landing.realtime")}</h3>
+                <p className="text-gray-300 text-sm">{t("landing.realtime_desc")}</p>
+              </div>
+
+              <div className="bg-zinc-900/50 backdrop-blur-sm rounded-xl p-6 border border-zinc-800">
+                <Calendar className="w-10 h-10 text-blue-400 mb-3 mx-auto" />
+                <h3 className="text-lg font-semibold text-white mb-2">{t("landing.datetime")}</h3>
+                <p className="text-gray-300 text-sm">{t("landing.datetime_desc")}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // ---------- Logged IN ----------
   return (
     <div className={`min-h-screen ${pageBg}`}>
-      <nav className="bg-white/5 backdrop-blur-lg border-b border-white/10 sticky top-0 z-50">
+      <nav className="bg-zinc-900/50 backdrop-blur-lg border-b border-zinc-800 sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <MeltingIceCube className="w-8 h-8" />
-            <span className="text-xl font-bold text-white">{t("landing.title")}</span>
+            <span className="text-xl font-bold text-blue-400">{t("landing.title")}</span>
           </div>
 
           <div className="flex items-center gap-4">
+            <span className="text-gray-300 hidden sm:inline">{user.email}</span>
+
             <a
               href="/news"
-              className="text-slate-300 hover:text-white transition-colors font-medium"
+              className="bg-zinc-900 hover:bg-zinc-800 text-white px-4 py-2 rounded-lg transition-colors font-medium border border-zinc-800 flex items-center gap-2"
             >
-              {t("nav.news")}
+              <Newspaper className="w-4 h-4" />
+              <span className="hidden sm:inline">{t("news.title")}</span>
             </a>
 
             <button
               onClick={() => setLanguage(language === "es" ? "en" : "es")}
-              className="bg-white/5 hover:bg-white/10 text-white px-4 py-2 rounded-lg transition-colors font-medium border border-white/10"
+              className="bg-zinc-900 hover:bg-zinc-800 text-white px-4 py-2 rounded-lg transition-colors font-medium border border-zinc-800"
             >
               {language === "es" ? "EN" : "ES"}
+            </button>
+
+            <button
+              onClick={logout}
+              className="bg-zinc-900 hover:bg-zinc-800 text-white px-4 py-2 rounded-lg transition-colors border border-zinc-800"
+            >
+              {t("nav.signout")}
             </button>
           </div>
         </div>
@@ -163,45 +239,47 @@ export default function HomePage() {
               </a>
             </div>
 
+            <div className="mt-8 mb-8">
+              <NotificationSettings />
+            </div>
+
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-3xl font-bold text-white">{t("dashboard.reports_title")}</h2>
 
               <button
                 onClick={() => setShowForm(!showForm)}
-                className="bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white font-semibold py-2 px-6 rounded-lg transition-all transform hover:scale-105 shadow-lg shadow-blue-500/10"
+                className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg transition-all transform hover:scale-105 shadow-lg"
               >
                 {showForm ? t("dashboard.cancel") : t("dashboard.report_incident")}
               </button>
             </div>
 
             {showForm && (
-              <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-6 border border-white/10 mb-8">
+              <div className="bg-zinc-900/50 backdrop-blur-lg rounded-2xl p-6 border border-zinc-800 mb-8">
                 <h3 className="text-xl font-semibold text-white mb-4">{t("dashboard.submit_new")}</h3>
                 <ReportForm onSuccess={handleReportSuccess} />
               </div>
             )}
           </div>
 
-          <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-6 border border-white/10">
+          <div className="bg-zinc-900/50 backdrop-blur-lg rounded-2xl p-6 border border-zinc-800">
             {!isLoading && allReports.length > 0 && (
               <div className="mb-6 grid md:grid-cols-3 gap-4">
                 <div>
-                  <label className="block text-sm font-medium text-slate-300 mb-2">
-                    {t("dashboard.filter_state")}
-                  </label>
+                  <label className="block text-sm font-medium text-gray-300 mb-2">{t("dashboard.filter_state")}</label>
                   <select
                     value={selectedState}
                     onChange={(e) => {
                       setSelectedState(e.target.value);
                       setSelectedCounty("");
                     }}
-                    className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                    className="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
                   >
-                    <option value="" className="bg-slate-900">
+                    <option value="" className="bg-zinc-900">
                       {t("dashboard.all_states")}
                     </option>
                     {uniqueStates.map((state) => (
-                      <option key={state} value={state} className="bg-slate-900">
+                      <option key={state} value={state} className="bg-zinc-900">
                         {state}
                       </option>
                     ))}
@@ -209,20 +287,18 @@ export default function HomePage() {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-slate-300 mb-2">
-                    {t("dashboard.filter_county")}
-                  </label>
+                  <label className="block text-sm font-medium text-gray-300 mb-2">{t("dashboard.filter_county")}</label>
                   <select
                     value={selectedCounty}
                     onChange={(e) => setSelectedCounty(e.target.value)}
-                    className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                    className="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
                     disabled={!selectedState && uniqueCounties.length === 0}
                   >
-                    <option value="" className="bg-slate-900">
+                    <option value="" className="bg-zinc-900">
                       {t("dashboard.all_counties")}
                     </option>
                     {uniqueCounties.map((county) => (
-                      <option key={county} value={county} className="bg-slate-900">
+                      <option key={county} value={county} className="bg-zinc-900">
                         {county}
                       </option>
                     ))}
@@ -230,16 +306,16 @@ export default function HomePage() {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-slate-300 mb-2">{t("dashboard.sort_by")}</label>
+                  <label className="block text-sm font-medium text-gray-300 mb-2">{t("dashboard.sort_by")}</label>
                   <select
                     value={sortOrder}
                     onChange={(e) => setSortOrder(e.target.value as "newest" | "oldest")}
-                    className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                    className="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
                   >
-                    <option value="newest" className="bg-slate-900">
+                    <option value="newest" className="bg-zinc-900">
                       {t("dashboard.sort_newest")}
                     </option>
-                    <option value="oldest" className="bg-slate-900">
+                    <option value="oldest" className="bg-zinc-900">
                       {t("dashboard.sort_oldest")}
                     </option>
                   </select>
@@ -249,8 +325,8 @@ export default function HomePage() {
 
             {isLoading ? (
               <div className="text-center py-12">
-                <div className="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-blue-300"></div>
-                <p className="mt-4 text-slate-300">{t("dashboard.loading")}</p>
+                <div className="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-blue-400"></div>
+                <p className="mt-4 text-gray-300">{t("dashboard.loading")}</p>
               </div>
             ) : (
               <ReportFeed reports={reports} />

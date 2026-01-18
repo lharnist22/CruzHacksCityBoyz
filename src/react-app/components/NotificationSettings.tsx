@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Bell, Phone, MapPin, Globe, AlertCircle } from "lucide-react";
-import { useLanguage } from "@/react-app/contexts/LanguageContext";
 
 interface NotificationPreferences {
   phone_number: string | null;
@@ -10,7 +9,6 @@ interface NotificationPreferences {
 }
 
 export default function NotificationSettings() {
-  const { t } = useLanguage();
   const [preferences, setPreferences] = useState<NotificationPreferences>({
     phone_number: "",
     notification_state: "",
@@ -109,21 +107,21 @@ export default function NotificationSettings() {
   if (isLoading) {
     return (
       <div className="text-center py-8">
-        <div className="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-white"></div>
-        <p className="mt-2 text-purple-200">Loading preferences...</p>
+        <div className="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-blue-400"></div>
+        <p className="mt-2 text-gray-300">Loading preferences...</p>
       </div>
     );
   }
 
   return (
-    <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
+    <div className="bg-zinc-900/50 backdrop-blur-lg rounded-2xl p-6 border border-zinc-800">
       <div className="flex items-center gap-3 mb-6">
-        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
-          <Bell className="w-5 h-5 text-white" />
+        <div className="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center border border-blue-500/30">
+          <Bell className="w-5 h-5 text-blue-400" />
         </div>
         <div>
           <h3 className="text-xl font-semibold text-white">SMS Notifications</h3>
-          <p className="text-purple-200 text-sm">Get alerts for new raid reports in your area</p>
+          <p className="text-gray-300 text-sm">Get alerts for new raid reports in your area</p>
         </div>
       </div>
 
@@ -156,7 +154,7 @@ export default function NotificationSettings() {
 
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
-            <label className="flex items-center gap-2 text-sm font-medium text-purple-200 mb-2">
+            <label className="flex items-center gap-2 text-sm font-medium text-gray-300 mb-2">
               <Phone className="w-4 h-4" />
               Phone Number (International Format)
             </label>
@@ -165,15 +163,15 @@ export default function NotificationSettings() {
               value={preferences.phone_number || ""}
               onChange={(e) => setPreferences(prev => ({ ...prev, phone_number: e.target.value }))}
               placeholder="+1234567890"
-              className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
+              className="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
             />
-            <p className="text-purple-300 text-xs mt-1">
+            <p className="text-gray-400 text-xs mt-1">
               Format: + followed by country code and number (e.g., +1234567890)
             </p>
           </div>
 
           <div>
-            <label className="flex items-center gap-2 text-sm font-medium text-purple-200 mb-2">
+            <label className="flex items-center gap-2 text-sm font-medium text-gray-300 mb-2">
               <MapPin className="w-4 h-4" />
               Filter by State (Optional)
             </label>
@@ -186,23 +184,23 @@ export default function NotificationSettings() {
                   notification_county: "" // Clear county if state changes
                 }));
               }}
-              className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
+              className="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
             >
-              <option value="" className="bg-slate-800">All States (Receive all alerts)</option>
+              <option value="" className="bg-zinc-900">All States (Receive all alerts)</option>
               {states.map(state => (
-                <option key={state} value={state} className="bg-slate-800">
+                <option key={state} value={state} className="bg-zinc-900">
                   {state}
                 </option>
               ))}
             </select>
-            <p className="text-purple-300 text-xs mt-1">
+            <p className="text-gray-400 text-xs mt-1">
               Leave empty to receive alerts for all states
             </p>
           </div>
 
           {preferences.notification_state && (
             <div>
-              <label className="flex items-center gap-2 text-sm font-medium text-purple-200 mb-2">
+              <label className="flex items-center gap-2 text-sm font-medium text-gray-300 mb-2">
                 <Globe className="w-4 h-4" />
                 Filter by County (Optional)
               </label>
@@ -211,27 +209,27 @@ export default function NotificationSettings() {
                 value={preferences.notification_county || ""}
                 onChange={(e) => setPreferences(prev => ({ ...prev, notification_county: e.target.value || null }))}
                 placeholder="e.g., Los Angeles"
-                className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
+                className="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
               />
-              <p className="text-purple-300 text-xs mt-1">
+              <p className="text-gray-400 text-xs mt-1">
                 Leave empty to receive alerts for entire state
               </p>
             </div>
           )}
 
-          <div className="flex items-start gap-3 p-4 bg-white/5 rounded-lg border border-white/10">
+          <div className="flex items-start gap-3 p-4 bg-zinc-900 rounded-lg border border-zinc-800">
             <div className="flex items-center h-5 mt-0.5">
               <input
                 type="checkbox"
                 id="receive-notifications"
                 checked={preferences.receive_sms_notifications}
                 onChange={(e) => setPreferences(prev => ({ ...prev, receive_sms_notifications: e.target.checked }))}
-                className="w-4 h-4 rounded border-white/20 bg-white/10 text-purple-500 focus:ring-purple-500 focus:ring-offset-slate-900"
+                className="w-4 h-4 rounded border-zinc-800 bg-zinc-900 text-blue-500 focus:ring-blue-500 focus:ring-offset-black"
               />
             </div>
             <label htmlFor="receive-notifications" className="text-white text-sm">
               Enable SMS notifications for new raid reports in my selected area
-              <p className="text-purple-300 text-xs mt-1">
+              <p className="text-gray-400 text-xs mt-1">
                 You will receive an SMS whenever a new raid report is submitted in your specified location
               </p>
             </label>
@@ -240,7 +238,7 @@ export default function NotificationSettings() {
           <button
             type="submit"
             disabled={isSaving || (preferences.receive_sms_notifications && !preferences.phone_number)}
-            className="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 disabled:from-purple-500/50 disabled:to-pink-500/50 text-white font-semibold py-3 px-6 rounded-lg transition-all transform hover:scale-105 disabled:scale-100 disabled:cursor-not-allowed shadow-lg"
+            className="w-full bg-blue-500 hover:bg-blue-600 disabled:bg-blue-500/50 text-white font-semibold py-3 px-6 rounded-lg transition-all transform hover:scale-105 disabled:scale-100 disabled:cursor-not-allowed shadow-lg"
           >
             {isSaving ? "Saving..." : "Save Notification Settings"}
           </button>

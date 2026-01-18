@@ -1,5 +1,8 @@
 
-DROP INDEX idx_user_notifications_county;
-DROP INDEX idx_user_notifications_state;
-DROP INDEX idx_user_notifications_user_id;
-DROP TABLE user_notification_preferences;
+DROP INDEX idx_push_subscriptions_endpoint;
+DROP INDEX idx_push_subscriptions_user_id;
+DROP INDEX idx_notification_preferences_county;
+DROP INDEX idx_notification_preferences_state;
+DROP INDEX idx_notification_preferences_user_id;
+DROP TABLE push_subscriptions;
+DROP TABLE notification_preferences;

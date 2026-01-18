@@ -1,3 +1,3 @@
 # Todo
-- #3: Add AI validation using Gemini when report threshold is met
-- #4: Display validation status badges on posts
+- #2: Set up service worker and push notification registration
+- #4: Implement notification sending when new posts are created in selected areas

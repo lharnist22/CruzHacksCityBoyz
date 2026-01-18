@@ -63,11 +63,11 @@ export default function ReportFeed({ reports }: ReportFeedProps) {
   if (reports.length === 0) {
     return (
       <div className="text-center py-12">
-        <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white/10 mb-4">
-          <MapPin className="w-8 h-8 text-purple-400" />
+        <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-zinc-900 border border-zinc-800 mb-4">
+          <MapPin className="w-8 h-8 text-blue-400" />
         </div>
         <h3 className="text-xl font-semibold text-white mb-2">{t("feed.no_reports")}</h3>
-        <p className="text-purple-200">{t("feed.no_reports")}</p>
+        <p className="text-gray-300">{t("feed.no_reports")}</p>
       </div>
     );
   }
@@ -109,8 +109,8 @@ export default function ReportFeed({ reports }: ReportFeedProps) {
           onClick={() => setViewMode("list")}
           className={`px-6 py-2 rounded-lg font-medium transition-all ${
             viewMode === "list"
-              ? "bg-gradient-to-r from-purple-500 to-pink-500 text-white shadow-lg"
-              : "bg-white/10 text-purple-200 hover:bg-white/20"
+              ? "bg-blue-500 text-white shadow-lg"
+              : "bg-zinc-900 text-gray-300 hover:bg-zinc-800 border border-zinc-800"
           }`}
         >
           {t("feed.list_view")}
@@ -119,8 +119,8 @@ export default function ReportFeed({ reports }: ReportFeedProps) {
           onClick={() => setViewMode("map")}
           className={`px-6 py-2 rounded-lg font-medium transition-all flex items-center gap-2 ${
             viewMode === "map"
-              ? "bg-gradient-to-r from-purple-500 to-pink-500 text-white shadow-lg"
-              : "bg-white/10 text-purple-200 hover:bg-white/20"
+              ? "bg-blue-500 text-white shadow-lg"
+              : "bg-zinc-900 text-gray-300 hover:bg-zinc-800 border border-zinc-800"
           }`}
         >
           <MapIcon className="w-4 h-4" />
@@ -132,9 +132,9 @@ export default function ReportFeed({ reports }: ReportFeedProps) {
         reportsWithCoords.length > 0 ? (
           <ReportsMap reports={reportsWithCoords} />
         ) : (
-          <div className="text-center py-12 bg-white/10 backdrop-blur-lg rounded-xl border border-white/20">
-            <MapIcon className="w-12 h-12 text-purple-400 mx-auto mb-4" />
-            <p className="text-purple-200">No reports with location data yet</p>
+          <div className="text-center py-12 bg-zinc-900/50 backdrop-blur-lg rounded-xl border border-zinc-800">
+            <MapIcon className="w-12 h-12 text-blue-400 mx-auto mb-4" />
+            <p className="text-gray-300">No reports with location data yet</p>
           </div>
         )
       ) : (
@@ -142,12 +142,12 @@ export default function ReportFeed({ reports }: ReportFeedProps) {
           {reports.map((report) => (
         <div
           key={report.id}
-          className="bg-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/20 hover:bg-white/[0.15] transition-all"
+          className="bg-zinc-900/50 backdrop-blur-lg rounded-xl p-6 border border-zinc-800 hover:bg-zinc-900/70 transition-all"
         >
           <div className="flex items-start justify-between mb-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
-                <User className="w-5 h-5 text-white" />
+              <div className="w-10 h-10 rounded-full bg-blue-500/20 border border-blue-500/30 flex items-center justify-center">
+                <User className="w-5 h-5 text-blue-400" />
               </div>
               <div>
                 <p className="text-white font-medium">{t("feed.anonymous_user")}</p>
@@ -156,7 +156,7 @@ export default function ReportFeed({ reports }: ReportFeedProps) {
             
             <button
               onClick={() => setReportingPostId(report.id)}
-              className="flex items-center gap-2 px-3 py-1.5 text-sm bg-white/10 hover:bg-white/20 text-purple-200 rounded-lg transition-all"
+              className="flex items-center gap-2 px-3 py-1.5 text-sm bg-zinc-900 hover:bg-zinc-800 text-gray-300 rounded-lg transition-all border border-zinc-800"
             >
               <Flag className="w-4 h-4" />
               <span className="hidden sm:inline">{t("feed.report_post")}</span>
@@ -198,12 +198,12 @@ export default function ReportFeed({ reports }: ReportFeedProps) {
 
           <div className="space-y-3">
             <div className="flex items-start gap-2">
-              <MapPin className="w-5 h-5 text-purple-400 mt-0.5 flex-shrink-0" />
+              <MapPin className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0" />
               <div>
-                <p className="text-purple-200 text-sm font-medium">{t("feed.location")}</p>
+                <p className="text-gray-300 text-sm font-medium">{t("feed.location")}</p>
                 <p className="text-white text-lg">{report.location}</p>
                 {(report.county || report.state) && (
-                  <p className="text-purple-300 text-sm mt-1">
+                  <p className="text-gray-400 text-sm mt-1">
                     {[report.county, report.state].filter(Boolean).join(", ")}
                   </p>
                 )}
@@ -212,25 +212,25 @@ export default function ReportFeed({ reports }: ReportFeedProps) {
 
             <div className="grid grid-cols-2 gap-4">
               <div className="flex items-start gap-2">
-                <Calendar className="w-5 h-5 text-purple-400 mt-0.5 flex-shrink-0" />
+                <Calendar className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0" />
                 <div>
-                  <p className="text-purple-200 text-sm font-medium">{t("form.date")}</p>
+                  <p className="text-gray-300 text-sm font-medium">{t("form.date")}</p>
                   <p className="text-white">{formatDate(report.date)}</p>
                 </div>
               </div>
 
               <div className="flex items-start gap-2">
-                <Clock className="w-5 h-5 text-purple-400 mt-0.5 flex-shrink-0" />
+                <Clock className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0" />
                 <div>
-                  <p className="text-purple-200 text-sm font-medium">{t("form.time")}</p>
+                  <p className="text-gray-300 text-sm font-medium">{t("form.time")}</p>
                   <p className="text-white">{formatTime(report.time)}</p>
                 </div>
               </div>
             </div>
 
             {report.description && (
-              <div className="mt-4 pt-4 border-t border-white/10">
-                <p className="text-purple-200 text-sm font-medium mb-1">
+              <div className="mt-4 pt-4 border-t border-zinc-800">
+                <p className="text-gray-300 text-sm font-medium mb-1">
                   {t("feed.description")}
                 </p>
                 <p className="text-white/90">{report.description}</p>
@@ -242,8 +242,8 @@ export default function ReportFeed({ reports }: ReportFeedProps) {
                 const imageKeys = JSON.parse(report.image_keys) as string[];
                 if (imageKeys.length > 0) {
                   return (
-                    <div className="mt-4 pt-4 border-t border-white/10">
-                      <p className="text-purple-200 text-sm font-medium mb-3">
+                    <div className="mt-4 pt-4 border-t border-zinc-800">
+                      <p className="text-gray-300 text-sm font-medium mb-3">
                         {t("feed.images")}
                       </p>
                       <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
@@ -252,7 +252,7 @@ export default function ReportFeed({ reports }: ReportFeedProps) {
                             key={index}
                             src={`/api/images/${key}`}
                             alt={`Report image ${index + 1}`}
-                            className="w-full h-32 object-cover rounded-lg border border-white/20 hover:scale-105 transition-transform cursor-pointer"
+                            className="w-full h-32 object-cover rounded-lg border border-zinc-800 hover:scale-105 transition-transform cursor-pointer"
                             onClick={() => window.open(`/api/images/${key}`, '_blank')}
                           />
                         ))}
@@ -273,20 +273,20 @@ export default function ReportFeed({ reports }: ReportFeedProps) {
 
       {reportingPostId && (
         <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center p-4 z-50">
-          <div className="bg-gradient-to-br from-purple-900/90 to-pink-900/90 backdrop-blur-xl rounded-2xl p-6 max-w-md w-full border border-white/20">
+          <div className="bg-zinc-900 backdrop-blur-xl rounded-2xl p-6 max-w-md w-full border border-zinc-800">
             <h3 className="text-xl font-bold text-white mb-2">{t("feed.report_confirm")}</h3>
-            <p className="text-purple-200 mb-6">{t("feed.report_confirm_desc")}</p>
+            <p className="text-gray-300 mb-6">{t("feed.report_confirm_desc")}</p>
             
             <div className="flex gap-3">
               <button
                 onClick={() => setReportingPostId(null)}
-                className="flex-1 px-4 py-2 bg-white/10 hover:bg-white/20 text-white rounded-lg transition-all"
+                className="flex-1 px-4 py-2 bg-zinc-800 hover:bg-zinc-700 text-white rounded-lg transition-all"
               >
                 {t("dashboard.cancel")}
               </button>
               <button
                 onClick={() => handleReportPost(reportingPostId)}
-                className="flex-1 px-4 py-2 bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 text-white rounded-lg transition-all font-medium"
+                className="flex-1 px-4 py-2 bg-red-500 hover:bg-red-600 text-white rounded-lg transition-all font-medium"
               >
                 {t("feed.confirm")}
               </button>
