@@ -2,8 +2,8 @@ import json
 import requests
 
 
-key='AIzaSyDjFArWaYiHSMWp6J4HK9-yffwLSB-UuZ8'
-cseid='57c0778e4a59c4e6d'
+key=
+cseid=
 
 url = 'https://www.googleapis.com/customsearch/v1'
 
