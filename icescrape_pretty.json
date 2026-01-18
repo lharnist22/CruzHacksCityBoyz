@@ -1,0 +1,1651 @@
+{
+  "t": "d",
+  "d": {
+    "b": {
+      "p": "verified",
+      "d": {
+        "1000_bass_pro_dr_nw_altoona_ia_50009_usa": {
+          "addedAt": "2026-01-16T22:50:37.627Z",
+          "additionalInfo": "ICE agents checked in at a motel near the Bass Pro Shops/outlet malls. Guessing on car but couldnt get a pic of individual.",
+          "address": "1000 Bass Pro Dr NW, Altoona, IA 50009, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1000_bass_pro_dr_nw_altoona_ia_50009_usa%2F1768603836690.jpg?alt=media&token=2b8d3750-56ab-44df-b8b2-2480fff824f1",
+          "lat": 41.659455,
+          "lng": -93.5146969,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T00:05:15.418Z"
+        },
+        "1000_gramsie_rd_shoreview_mn_55126_usa": {
+          "addedAt": "2026-01-16T20:39:30.971Z",
+          "additionalInfo": "Ice vehicles seen entering the parking lot",
+          "address": "1000 Gramsie Rd, Shoreview, MN 55126, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1000_gramsie_rd_shoreview_mn_55126_usa%2F1768595969023.jpg?alt=media&token=9d88856d-67c0-41cb-98cd-3600b3f1721f",
+          "lat": 45.05996649999999,
+          "lng": -93.142971,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T21:17:03.983Z"
+        },
+        "10110_s_15th_st_bellevue_ne_68123_usa": {
+          "addedAt": "2026-01-13T18:14:37.301Z",
+          "additionalInfo": "ICE unmarked and tinted vehicle with no plates. Blue toned hybrid with a flag sticker on the back marked with 3 numbers starting with 6",
+          "address": "10110 S 15th St, Bellevue, NE 68123, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F10110_s_15th_st_bellevue_ne_68123_usa%2F1768328068794.jpg?alt=media&token=3d0fc89a-9701-4bb0-8f3d-7069882e1a37",
+          "lat": 41.1592947,
+          "lng": -95.93593489999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T18:59:59.716Z"
+        },
+        "1016_mainstreet_hopkins_mn_55343_usa": {
+          "addedAt": "2026-01-15T15:52:13.336Z",
+          "additionalInfo": "ICE kidnapped Nacho\u2019s worker and Chipotle worker in Hopkins between the evening 1/14/2026 and 830am 1/15/2026. In the evening of 1/14/2026 there was a silver Wagoneer license plate ZLJ331 parked in parking lot behind Chipotle. A big man with an armored vest and long sleeve got out of the driver\u2019s seat. Heavily tinted windows except the windshield.",
+          "address": "1016 Mainstreet, Hopkins, MN 55343, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1016_mainstreet_hopkins_mn_55343_usa%2F1768492328326.jpg?alt=media&token=c3464dc1-4dd6-4f70-b5b0-1a4e63d69293",
+          "lat": 44.9241931,
+          "lng": -93.4136111,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T05:45:23.480Z"
+        },
+        "101_e_jefferson_st_louisville_ky_40202_usa": {
+          "addedAt": "2026-01-15T17:27:46.988Z",
+          "additionalInfo": "Several unmarked ice vehicles at Hampton Inn downtown Louisville",
+          "address": "101 E Jefferson St, Louisville, KY 40202, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F101_e_jefferson_st_louisville_ky_40202_usa%2F1768498065389.jpg?alt=media&token=f2a3f33d-68ee-45f1-8db8-2d51f36755ac",
+          "lat": 38.2536192,
+          "lng": -85.7510147,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T05:41:09.585Z"
+        },
+        "1020_rice_st_st_paul_mn_55117_usa": {
+          "addedAt": "2026-01-13T20:24:26.146Z",
+          "additionalInfo": "ICE spotted across the street from the Rice Street library. They left. Dont know if anyone was taken.",
+          "address": "1020 Rice St, St Paul, MN 55117, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1020_rice_st_st_paul_mn_55117_usa%2F1768335865719.jpg?alt=media&token=309a08e5-cbfc-43b3-8ba6-f23c628e59ff",
+          "lat": 44.9718226,
+          "lng": -93.1056327,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T22:42:37.814Z"
+        },
+        "1040_collinsville_crossing_blvd_collinsville_il_62234_usa": {
+          "addedAt": "2026-01-15T21:57:36.493Z",
+          "additionalInfo": "Stoped Spanish speaking family other patrons and employees were told not to interfere",
+          "address": "1040 Collinsville Crossing Blvd, Collinsville, IL 62234, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1040_collinsville_crossing_blvd_collinsville_il_62234_usa%2F1768514255635.jpg?alt=media&token=c4b4d2d8-e8dd-4601-8eae-5c69a3fd1cd7",
+          "lat": 38.6752208,
+          "lng": -90.0181088,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T00:23:28.752Z"
+        },
+        "1081_n_fair_oaks_ave_pasadena_ca_91103_usa": {
+          "addedAt": "2026-01-15T18:42:23.397Z",
+          "additionalInfo": "Saw a couple of SUV\u2019s with guys insides with masks on.",
+          "address": "1081 N Fair Oaks Ave, Pasadena, CA 91103, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1081_n_fair_oaks_ave_pasadena_ca_91103_usa%2F1768502542115.jpg?alt=media&token=402d8608-f9a8-46ba-8f7a-e8cc2999036f",
+          "lat": 34.1641837,
+          "lng": -118.1517458,
+          "reported": 2,
+          "verifiedAt": "2026-01-15T20:39:46.976Z"
+        },
+        "1098_charles_ave_st_paul_mn_55104_usa": {
+          "addedAt": "2026-01-16T00:26:47.018Z",
+          "additionalInfo": "Black Chevy, masked agent, slowly driving along neighborhood road in frogtown. Spotted going westbound on Charles Ave to Lexington Ave",
+          "address": "1098 Charles Ave, St Paul, MN 55104, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1098_charles_ave_st_paul_mn_55104_usa%2F1768523206293.png?alt=media&token=fb989ed7-b27b-49d7-9294-7bb572b287bc",
+          "lat": 44.9575536,
+          "lng": -93.1465587,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T05:32:27.314Z"
+        },
+        "1100_university_ave_ne_minneapolis_mn_55413_usa": {
+          "addedAt": "2026-01-16T02:43:39.787Z",
+          "additionalInfo": "I spotted 3 SUVs, one red and the other two black, all with out of state license plates speeding with no regard for lights or stop signs going easily 90 in a 35. I heavily suspect their ICE. I wasnt able to get pictures but they were in this area, stay safe",
+          "address": "1100 University Ave NE, Minneapolis, MN 55413, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1100_university_ave_ne_minneapolis_mn_55413_usa%2F1768531418819.jpg?alt=media&token=b2989f6d-f762-4da7-8e79-4afd55157d2e",
+          "lat": 44.9991444,
+          "lng": -93.2637639,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T05:18:20.895Z"
+        },
+        "1105_1st_ave_mosier_or_97040_usa": {
+          "addedAt": "2026-01-16T20:37:12.222Z",
+          "additionalInfo": "Multiple SUV\u2019s with government license plates.",
+          "address": "1105 1st Ave, Mosier, OR 97040, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1105_1st_ave_mosier_or_97040_usa%2F1768595831259.jpg?alt=media&token=2dbd22ae-d03c-4c0a-90ad-b1ab868d1807",
+          "lat": 45.68372369999999,
+          "lng": -121.398568,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T21:17:20.689Z"
+        },
+        "11330_beach_blvd_jacksonville_fl_32246_usa": {
+          "addedAt": "2026-01-13T20:16:37.975Z",
+          "additionalInfo": "Heavy Florida highway patrol presence and ICE all on beach blvd.",
+          "address": "11330 Beach Blvd, Jacksonville, FL 32246, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F11330_beach_blvd_jacksonville_fl_32246_usa%2F1768335396889.jpg?alt=media&token=8657b3a4-b836-4a65-b8de-e27d031f20ec",
+          "lat": 30.286451,
+          "lng": -81.526236,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T22:42:48.956Z"
+        },
+        "1147_s_broadway_ave_albert_lea_mn_56007_usa": {
+          "addedAt": "2026-01-15T19:20:53.321Z",
+          "additionalInfo": "Seen by Hardee\u2019s and around the area of the place",
+          "address": "1147 S Broadway Ave, Albert Lea, MN 56007, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1147_s_broadway_ave_albert_lea_mn_56007_usa%2F1768504852594.jpg?alt=media&token=05276543-7448-45c2-a33c-3df396a373a2",
+          "lat": 43.6376204,
+          "lng": -93.3679428,
+          "reported": 2,
+          "verifiedAt": "2026-01-15T20:37:26.355Z"
+        },
+        "1175_n_205th_st_shoreline_wa_98133_usa": {
+          "addedAt": "2026-01-15T18:25:29.257Z",
+          "additionalInfo": "Came in Subarus and Hyundais. Spread throughout the parking lot.",
+          "address": "1175 N 205th St, Shoreline, WA 98133, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1175_n_205th_st_shoreline_wa_98133_usa%2F1768501527384.jpg?alt=media&token=8dd05ea9-da52-487d-9837-a18979ae56e0",
+          "lat": 47.7749263,
+          "lng": -122.344468,
+          "reported": 2,
+          "verifiedAt": "2026-01-15T20:41:39.487Z"
+        },
+        "1201_s_25th_e_ammon_id_83406_usa": {
+          "addedAt": "2026-01-14T05:36:26.874Z",
+          "additionalInfo": "Someone detained and arrested by three ICE agents in a white undercover truck outside/near the Walmart in Ammon, ID",
+          "address": "1201 S 25th E, Ammon, ID 83406, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1201_s_25th_e_ammon_id_83406_usa%2F1768368916714.png?alt=media&token=535888d5-449f-404a-88cc-8859374edba5",
+          "lat": 43.4870221,
+          "lng": -111.9822601,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T05:54:13.211Z"
+        },
+        "12109_main_st_maple_grove_mn_55369_usa": {
+          "addedAt": "2026-01-17T04:36:35.032Z",
+          "additionalInfo": "Waited outside the parking lot. One sat at the bar until store closed. Scoping out and trying to see staff and kitchen workers. 5 total vechical, only 2 marked, waiting in the parking lot for staff to exit the building after close, driving around the building",
+          "address": "12109 Main St, Maple Grove, MN 55369, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F12109_main_st_maple_grove_mn_55369_usa%2F1768624593827.jpg?alt=media&token=5496bdf5-2c40-4dff-b743-d7a1e6d43e35",
+          "lat": 45.090705,
+          "lng": -93.43415499999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T04:43:01.767Z"
+        },
+        "12281_eastlake_blvd_el_paso_tx_79928_usa": {
+          "addedAt": "2026-01-14T17:01:02.187Z",
+          "additionalInfo": "ICE cars and Sheriff vehicles are surrounding Circle K along with helicopter flying around the near by neighborhoods.",
+          "address": "12281 Eastlake Blvd, El Paso, TX 79928, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F12281_eastlake_blvd_el_paso_tx_79928_usa%2F1768410060648.jpg?alt=media&token=c6baaff4-c4d9-4f60-a747-d4555c2d1d1a",
+          "lat": 31.6914361,
+          "lng": -106.2619687,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T22:11:13.387Z"
+        },
+        "12540_glenhurst_ave_savage_mn_55378_usa": {
+          "addedAt": "2026-01-14T17:20:26.764Z",
+          "additionalInfo": "Approximately 10 I.C.E. vehicles appear to be detaining residents of the nearby buildings",
+          "address": "12540 Glenhurst Ave, Savage, MN 55378, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F12540_glenhurst_ave_savage_mn_55378_usa%2F1768411226072.jpg?alt=media&token=09980ed5-97f7-491c-945c-9991c5713fa4",
+          "lat": 44.7760731,
+          "lng": -93.33030819999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T22:10:09.810Z"
+        },
+        "12734_elm_creek_blvd_n_maple_grove_mn_55369_usa": {
+          "addedAt": "2026-01-17T01:59:01.802Z",
+          "additionalInfo": "ICE agents stormed in tge restaurant and went straight to the kitchen",
+          "address": "12734 Elm Creek Blvd N, Maple Grove, MN 55369, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F12734_elm_creek_blvd_n_maple_grove_mn_55369_usa%2F1768615140777.jpg?alt=media&token=60386220-f573-4910-aba9-e191d522c2d7",
+          "lat": 45.0952188,
+          "lng": -93.44206439999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T02:09:48.204Z"
+        },
+        "1320_saratoga_ave_san_jose_ca_95129_usa": {
+          "addedAt": "2026-01-16T19:23:08.905Z",
+          "additionalInfo": "OUTSIDE OF A NIGERIAN RESTAURANT",
+          "address": "1320 Saratoga Ave, San Jose, CA 95129, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1320_saratoga_ave_san_jose_ca_95129_usa%2F1768591381870.jpg?alt=media&token=237c2903-0407-4a83-b7df-88449541537a",
+          "lat": 37.3001316,
+          "lng": -121.98108,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T21:27:49.913Z"
+        },
+        "1345_e_osceola_pkwy_kissimmee_fl_34744_usa": {
+          "addedAt": "2026-01-14T18:26:16.268Z",
+          "additionalInfo": "ICE at EOS about 11am",
+          "address": "1345 E Osceola Pkwy, Kissimmee, FL 34744, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1345_e_osceola_pkwy_kissimmee_fl_34744_usa%2F1768415175006.jpg?alt=media&token=c06ad5e0-4c65-48dd-87b1-2e57d398b546",
+          "lat": 28.3436,
+          "lng": -81.38884399999999,
+          "reported": 4,
+          "verifiedAt": "2026-01-14T22:04:26.453Z"
+        },
+        "141_hannaford_square_bennington_vt_05201_usa": {
+          "addedAt": "2026-01-17T05:22:00.559Z",
+          "additionalInfo": "Ice spotted near Hannaford",
+          "address": "141 Hannaford Square, Bennington, VT 05201, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F141_hannaford_square_bennington_vt_05201_usa%2F1768627319954.jpg?alt=media&token=cb6aa591-37bd-475c-9d42-ed940f0dc423",
+          "lat": 42.9069998,
+          "lng": -73.2227568,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T06:34:33.694Z"
+        },
+        "1427_22nd_ave_se_minneapolis_mn_55414_usa": {
+          "addedAt": "2026-01-17T03:55:05.174Z",
+          "additionalInfo": "Agents going door to door",
+          "address": "1427 22nd Ave SE, Minneapolis, MN 55414, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1427_22nd_ave_se_minneapolis_mn_55414_usa%2F1768622101560.jpg?alt=media&token=88b6bae4-fd67-48c8-a6a2-fe88101c0920",
+          "lat": 44.9914991,
+          "lng": -93.22153560000001,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T04:46:02.544Z"
+        },
+        "1440_stinson_blvd_ne_minneapolis_mn_55413_usa": {
+          "addedAt": "2026-01-14T01:54:08.914Z",
+          "additionalInfo": "Four members of ICE were trying to get someone out of a car, and they all came out of the white van that is pictured below. This happened in the Mcdonalds parking lot and left shortly after I arrived.",
+          "address": "1440 Stinson Blvd NE, Minneapolis, MN 55413, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1440_stinson_blvd_ne_minneapolis_mn_55413_usa%2F1768355647706.png?alt=media&token=d160a5fd-5d64-4139-a77e-e37669989227",
+          "lat": 45.0027338,
+          "lng": -93.2283063,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T02:10:17.650Z"
+        },
+        "14412_se_powell_blvd_portland_or_97236_usa": {
+          "addedAt": "2026-01-15T20:25:12.319Z",
+          "additionalInfo": "ICE helicopter flyover around Powell Butte area",
+          "address": "14412 SE Powell Blvd, Portland, OR 97236, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F14412_se_powell_blvd_portland_or_97236_usa%2F1768508711328.jpg?alt=media&token=e801516a-8d67-4bf4-adb7-355d23b86df2",
+          "lat": 45.4990368,
+          "lng": -122.514341,
+          "reported": 2,
+          "verifiedAt": "2026-01-15T20:34:32.787Z"
+        },
+        "1520_new_brighton_blvd_minneapolis_mn_55413_usa": {
+          "addedAt": "2026-01-15T11:48:23.078Z",
+          "additionalInfo": "Ice detaining",
+          "address": "1520 New Brighton Blvd, Minneapolis, MN 55413, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1520_new_brighton_blvd_minneapolis_mn_55413_usa%2F1768477702800.webp?alt=media&token=d09ea571-005f-4e8d-850d-7f72e0e12da4",
+          "lat": 45.0053607,
+          "lng": -93.23425590000001,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T05:56:30.130Z"
+        },
+        "153rd_st_apple_valley_mn_55124_usa": {
+          "addedAt": "2026-01-14T18:51:12.078Z",
+          "additionalInfo": "Five or six vehicles lined up in parking lot with people putting on vests",
+          "address": "153rd St, Apple Valley, MN 55124, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F153rd_st_apple_valley_mn_55124_usa%2F1768416669925.jpg?alt=media&token=dc1b40f7-589c-483c-9fda-5f1a70788cc9",
+          "lat": 44.7270279,
+          "lng": -93.2000321,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T21:59:28.575Z"
+        },
+        "1551_e_2nd_st_beaumont_ca_92223_usa": {
+          "addedAt": "2026-01-13T19:44:47.856Z",
+          "additionalInfo": "Unsure if they are stopping to eat or detaining workers or people in the surrounding area. Their vehicles are parked by the in n out.",
+          "address": "1551 E 2nd St, Beaumont, CA 92223, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1551_e_2nd_st_beaumont_ca_92223_usa%2F1768333487137.jpg?alt=media&token=ce2a42e7-2041-4bb3-9169-2c25cf3b475b",
+          "lat": 33.922681,
+          "lng": -116.9518484,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T22:43:59.058Z"
+        },
+        "15_arista_dr_brewer_me_04412_usa": {
+          "addedAt": "2026-01-17T04:17:01.786Z",
+          "additionalInfo": "Ice agents detained an employee at Lowe\u2019s, in Brewer ME on 1/16/2026",
+          "address": "15 Arista Dr, Brewer, ME 04412, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F15_arista_dr_brewer_me_04412_usa%2F1768623420983.jpg?alt=media&token=969ade24-be49-442f-9bdc-c8248ea8f7d4",
+          "lat": 44.77441229999999,
+          "lng": -68.7248275,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T04:44:27.879Z"
+        },
+        "1625_w_camelback_rd_phoenix_az_85015_usa": {
+          "addedAt": "2026-01-14T00:46:58.057Z",
+          "additionalInfo": "Ice agent pretending to be security guard. Says he works for arrow security and the property. Tresspassed me for wearing a hajob.",
+          "address": "1625 W Camelback Rd, Phoenix, AZ 85015, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1625_w_camelback_rd_phoenix_az_85015_usa%2F1768351616973.jpg?alt=media&token=12d01306-6094-471e-b7d8-4c0c42bd0455",
+          "lat": 33.5081613,
+          "lng": -112.0944914,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T02:10:30.796Z"
+        },
+        "1635_e_cottonwood_st_cottonwood_az_86326_usa": {
+          "addedAt": "2026-01-14T19:01:45.689Z",
+          "additionalInfo": "Safeway parking lot",
+          "address": "1635 E Cottonwood St, Cottonwood, AZ 86326, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1635_e_cottonwood_st_cottonwood_az_86326_usa%2F1768417304667.jpg?alt=media&token=3d83b4b5-a944-4ede-aa0c-5e402121cc2b",
+          "lat": 34.7273347,
+          "lng": -112.0078614,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T21:59:17.668Z"
+        },
+        "169_pioneer_trail_chanhassen_mn_55317_usa": {
+          "addedAt": "2026-01-15T21:43:16.661Z",
+          "additionalInfo": "1:55 PM Jan 15, 5 unmarked SUVs on Northbound 169 pulled over 3-4 vehicles, agents in ERO markings inspecting drivers/vehicles.",
+          "address": "169 Pioneer Trail, Chanhassen, MN 55317, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F169_pioneer_trail_chanhassen_mn_55317_usa%2F1768513395397.png?alt=media&token=e2114b3d-965c-484c-b0dd-5f4d4ee95606",
+          "lat": 44.8263459,
+          "lng": -93.52558979999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T00:24:32.634Z"
+        },
+        "17001_dumfries_rd_montclair_va_22025_usa": {
+          "addedAt": "2026-01-15T17:13:45.519Z",
+          "additionalInfo": "Ice is on 234 At the Montclair Family Restaurant & the Waffle House\nStopping people who are getting of the exit",
+          "address": "17001 Dumfries Rd, Montclair, VA 22025, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F17001_dumfries_rd_montclair_va_22025_usa%2F1768497223271.jpg?alt=media&token=0e78ac41-f115-4ef1-8fcc-739dbc1e3a03",
+          "lat": 38.5839724,
+          "lng": -77.33004199999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T05:41:44.649Z"
+        },
+        "1701_w_roeser_rd_phoenix_az_85041_usa": {
+          "addedAt": "2026-01-14T18:15:35.898Z",
+          "additionalInfo": "C.J. Jorgensen Elementary School\n\nWhat seems to be ICE meet up location \nWhite transport vans present \nEnterprise loading truck present \nICE presence in unmarked cars \nPolice presence \nSaw atleast 2 Ford SUVs make their way out of the school with multiple ICE agents inside",
+          "address": "1701 W Roeser Rd, Phoenix, AZ 85041, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1701_w_roeser_rd_phoenix_az_85041_usa%2F1768414533644.jpg?alt=media&token=a5e00f25-17b0-46e6-9d4a-4e5d57af8064",
+          "lat": 33.3981169,
+          "lng": -112.0957023,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T22:05:41.899Z"
+        },
+        "1784_n_pine_island_rd_plantation_fl_33322_usa": {
+          "addedAt": "2026-01-17T00:21:51.079Z",
+          "additionalInfo": "ICE trucks pulled over a car. On the south side of N Pine Island Rd and Sunrise Blvd in Plantation, FL",
+          "address": "1784 N Pine Island Rd, Plantation, FL 33322, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1784_n_pine_island_rd_plantation_fl_33322_usa%2F1768609308732.jpg?alt=media&token=9c3b16f9-f545-44d9-9350-8809704e0c9c",
+          "lat": 26.1461813,
+          "lng": -80.26853609999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T00:22:11.581Z"
+        },
+        "1785_browns_bridge_rd_gainesville_ga_30501_usa": {
+          "addedAt": "2026-01-14T14:32:12.699Z",
+          "additionalInfo": "A family member was driving by the CITGO around 5:30am on their way to work and saw some blacked out SUVs detaining someone. Saw what looked like ICE agents (tactical gear, not local PD gear). Location is near a large Hispanic/Latino community, so we want to confirm before causing a panic in the community.",
+          "address": "1785 Browns Bridge Rd, Gainesville, GA 30501, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1785_browns_bridge_rd_gainesville_ga_30501_usa%2F1768401132220.png?alt=media&token=4e047586-d985-4b56-b3b0-9b679fe6cb35",
+          "lat": 34.2840023,
+          "lng": -83.84728070000001,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T22:19:44.348Z"
+        },
+        "1816_fremont_ave_n_minneapolis_mn_55411_usa": {
+          "addedAt": "2026-01-17T05:59:03.150Z",
+          "additionalInfo": "Bunch of white ICE agents posted, looking like they was setting something up or blocking the street. Had like four cars minimum.",
+          "address": "1816 Fremont Ave N, Minneapolis, MN 55411, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1816_fremont_ave_n_minneapolis_mn_55411_usa%2F1768629541767.png?alt=media&token=3796490f-12de-41b3-8e1e-47fbaa04a9a2",
+          "lat": 44.9980424,
+          "lng": -93.295328,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T06:33:46.196Z"
+        },
+        "1842_s_crismon_rd_mesa_az_85209_usa": {
+          "addedAt": "2026-01-17T05:33:29.281Z",
+          "additionalInfo": "ICE vehicle spotted in the parking lot of Creme de la Creme.",
+          "address": "1842 S Crismon Rd, Mesa, AZ 85209, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1842_s_crismon_rd_mesa_az_85209_usa%2F1768628000670.jpg?alt=media&token=a663afde-0a2d-430a-831f-382e45eb4834",
+          "lat": 33.3816791,
+          "lng": -111.6190373,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T06:33:57.139Z"
+        },
+        "1901_madison_ave_500_mankato_mn_56001_usa": {
+          "addedAt": "2026-01-15T17:31:53.058Z",
+          "additionalInfo": "4 masked men in ICE uniforms in Red Mazda 4 Door. Sitting in parking lot outside of Michael\u2019s.",
+          "address": "1901 Madison Ave #500, Mankato, MN 56001, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1901_madison_ave_500_mankato_mn_56001_usa%2F1768498311420.jpg?alt=media&token=ff139ac9-a8af-4213-8c17-184df66eb042",
+          "lat": 44.1663383,
+          "lng": -93.94835409999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T05:38:43.769Z"
+        },
+        "19086_i_35_kyle_tx_78640_usa": {
+          "addedAt": "2026-01-16T22:16:42.696Z",
+          "additionalInfo": "ICE beat and detained man in Kyle, injuries severe enough be required ambulance transport, incident occurred on 1/15/26.",
+          "address": "19086 I-35, Kyle, TX 78640, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F19086_i_35_kyle_tx_78640_usa%2F1768601801854.jpg?alt=media&token=7409bb5c-716c-4a28-86dd-7faf4c7278e0",
+          "lat": 30.032011,
+          "lng": -97.85023699999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T00:20:44.659Z"
+        },
+        "19100_e_valley_view_pkwy_independence_mo_64055_usa": {
+          "addedAt": "2026-01-16T20:22:39.228Z",
+          "additionalInfo": "Fully armed and fully uniformed agents, with masks doing drills in front of Cable Dahmer Arena, next to Golden Corral. Many unmarked cars with dark tint lining the back of the parking lot in which they are occupying.",
+          "address": "19100 E Valley View Pkwy, Independence, MO 64055, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F19100_e_valley_view_pkwy_independence_mo_64055_usa%2F1768594957116.png?alt=media&token=0d5c7003-f3ac-4c52-bd9f-0a1d1240d971",
+          "lat": 39.0400091,
+          "lng": -94.3573681,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T21:21:51.055Z"
+        },
+        "1919_e_old_shakopee_rd_bloomington_mn_55425_usa": {
+          "addedAt": "2026-01-13T13:48:46.104Z",
+          "additionalInfo": "I was driving and was not able to get a photo but there were ICE trucks on the bridge going south",
+          "address": "1919 E Old Shakopee Rd, Bloomington, MN 55425, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1919_e_old_shakopee_rd_bloomington_mn_55425_usa%2F1768312122808.jpg?alt=media&token=43d93900-c87c-4b4c-8bb3-e110dc97d8b9",
+          "lat": 44.8401492,
+          "lng": -93.24511729999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T19:01:28.443Z"
+        },
+        "1927_w_dunlap_ave_phoenix_az_85021_usa": {
+          "addedAt": "2026-01-16T03:22:57.115Z",
+          "additionalInfo": "Several masked men in tactical gear, wearing black vests, with several unmarked vehicles in the back of the park n ride up against the fence with the Morgan Park apartments. Standing around, talking with each other.",
+          "address": "1927 W Dunlap Ave, Phoenix, AZ 85021, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1927_w_dunlap_ave_phoenix_az_85021_usa%2F1768533776818.png?alt=media&token=ce609d55-79e1-4024-b2db-164811419870",
+          "lat": 33.5671545,
+          "lng": -112.1007828,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T05:17:14.114Z"
+        },
+        "19458_us_281_san_antonio_tx_78221_usa": {
+          "addedAt": "2026-01-16T19:12:14.005Z",
+          "additionalInfo": "Immigration and police set up a checkpoint right before a highschool and are detaining mothers and children.",
+          "address": "19458 US-281, San Antonio, TX 78221, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F19458_us_281_san_antonio_tx_78221_usa%2F1768590731600.jpg?alt=media&token=4a350b54-b161-4b9c-95ad-ff3952bccc78",
+          "lat": 29.2301468,
+          "lng": -98.4752223,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T00:39:32.672Z"
+        },
+        "1975_rahncliff_ct_eagan_mn_55122_usa": {
+          "addedAt": "2026-01-15T16:28:51.608Z",
+          "additionalInfo": "At least Six individuals in 5 different vehicles all with no plates. Orange and black jeep, white ford explorer, gray mustang, black dodge Durango, grey charger.",
+          "address": "1975 Rahncliff Ct, Eagan, MN 55122, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1975_rahncliff_ct_eagan_mn_55122_usa%2F1768494529509.jpg?alt=media&token=d3cecaae-0ce7-4001-aedb-394582f26917",
+          "lat": 44.78859600000001,
+          "lng": -93.2064901,
+          "reported": 4,
+          "verifiedAt": "2026-01-16T05:42:30.250Z"
+        },
+        "1_tropicana_dr_st_petersburg_fl_33705_usa": {
+          "addedAt": "2026-01-14T14:44:31.030Z",
+          "additionalInfo": "They are gathering in the parking lot. Just loaded up into a white van.",
+          "address": "1 Tropicana Dr., St. Petersburg, FL 33705, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F1_tropicana_dr_st_petersburg_fl_33705_usa%2F1768401870107.png?alt=media&token=e0af72f9-53e7-4987-8891-85fa9fdbdbec",
+          "lat": 27.7681654,
+          "lng": -82.65326759999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T22:19:24.351Z"
+        },
+        "207_e_north_st_new_castle_pa_16101_usa": {
+          "addedAt": "2026-01-16T18:37:55.254Z",
+          "additionalInfo": "Individuals who identified themselves as US Marshalls entered the New Castle Public Library and later made an arrest in the parking lot. \n\nUnknown if they were ICE agents or not, but it was suspicious as they were not in professional clothing and were driving unmarked vehicles.",
+          "address": "207 E North St, New Castle, PA 16101, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F207_e_north_st_new_castle_pa_16101_usa%2F1768588671770.jpg?alt=media&token=70e1bd0e-f7a6-4cbb-9592-34fde29ef35d",
+          "lat": 41.0016854,
+          "lng": -80.343897,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T00:43:40.345Z"
+        },
+        "2185_stanich_st_st_paul_mn_55109_usa": {
+          "addedAt": "2026-01-14T18:03:06.840Z",
+          "additionalInfo": "Ford Escape\nIllinois Licence Plate 218151\n\nCalled Non Emergency Dispatch after car was spotted for a couple days with (at least) 2 men inside. They confirmed the car is ICE watching a house down the street (without specifying which house)",
+          "address": "2185 Stanich St, St Paul, MN 55109, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F2185_stanich_st_st_paul_mn_55109_usa%2F1768413785939.jpg?alt=media&token=41a80e9c-126b-4c03-8ebb-4c3ffa2f51b4",
+          "lat": 45.0072856,
+          "lng": -93.0166352,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T22:06:44.671Z"
+        },
+        "2201_s_melrose_dr_vista_ca_92081_usa": {
+          "addedAt": "2026-01-16T04:17:25.717Z",
+          "additionalInfo": "ICE walking through adjoining neighborhoods and currently parked at Towneplace Suites",
+          "address": "2201 S Melrose Dr, Vista, CA 92081, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F2201_s_melrose_dr_vista_ca_92081_usa%2F1768537044263.jpg?alt=media&token=b2e78d74-ebef-497e-ae1f-2db680c8e703",
+          "lat": 33.1468192,
+          "lng": -117.2422125,
+          "reported": 4,
+          "verifiedAt": "2026-01-16T05:15:29.050Z"
+        },
+        "22_main_st_almond_ny_14804_usa": {
+          "addedAt": "2026-01-17T01:48:18.783Z",
+          "additionalInfo": "ICE took someone from a parking lot in Hornell a few days ago and was spotted while driving at the 7/11 in Almond New York.",
+          "address": "22 Main St, Almond, NY 14804, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F22_main_st_almond_ny_14804_usa%2F1768614497266.jpg?alt=media&token=3b5b4d06-a273-40a9-a9ff-253e1fec19aa",
+          "lat": 42.323076,
+          "lng": -77.7358194,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T02:09:56.197Z"
+        },
+        "238_n_7th_st_quincy_il_62301_usa": {
+          "addedAt": "2026-01-14T23:50:24.172Z",
+          "additionalInfo": "I dont know what or who I saw. It looked weird. 4-6 officers in four unmarked black vehicles with one male in about his 60s, w a small dog, who didnt seem to be a threat",
+          "address": "238 N 7th St, Quincy, IL 62301, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F238_n_7th_st_quincy_il_62301_usa%2F1768434623168.jpg?alt=media&token=1116c322-6f0a-45e9-b0c6-ca5756539b60",
+          "lat": 39.933963,
+          "lng": -91.404529,
+          "reported": 2,
+          "verifiedAt": "2026-01-15T06:59:37.389Z"
+        },
+        "24240_van_ry_blvd_mountlake_terrace_wa_98043_usa": {
+          "addedAt": "2026-01-15T18:50:59.056Z",
+          "additionalInfo": "Several unmarked SUVs and trucks with masked and armed men in police vests",
+          "address": "24240 Van Ry Blvd, Mountlake Terrace, WA 98043, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F24240_van_ry_blvd_mountlake_terrace_wa_98043_usa%2F1768503057692.jpg?alt=media&token=e1e59e23-ae8e-4dbb-91f7-deb20ee4f809",
+          "lat": 47.7790662,
+          "lng": -122.3147519,
+          "reported": 2,
+          "verifiedAt": "2026-01-15T20:38:53.777Z"
+        },
+        "242_s_tyler_rd_wichita_ks_67209_usa": {
+          "addedAt": "2026-01-16T17:32:29.298Z",
+          "additionalInfo": "From this morning  ice agents",
+          "address": "242 S Tyler Rd, Wichita, KS 67209, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F242_s_tyler_rd_wichita_ks_67209_usa%2F1768584748338.jpg?alt=media&token=c0ffbf6b-18f1-45f3-a931-467116654f7f",
+          "lat": 37.679882,
+          "lng": -97.4437131,
+          "reported": 5,
+          "verifiedAt": "2026-01-17T01:20:03.177Z"
+        },
+        "2604_crain_hwy_bowie_md_20716_usa": {
+          "addedAt": "2026-01-14T17:11:59.648Z",
+          "additionalInfo": "Saw ICE agents in the parking lot of the veterinarian office. Unable to take photo driving.",
+          "address": "2604 Crain Hwy, Bowie, MD 20716, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F2604_crain_hwy_bowie_md_20716_usa%2F1768410719135.jpg?alt=media&token=bb38fe04-880a-4e4e-bbc1-7ab07f928589",
+          "lat": 38.9257421,
+          "lng": -76.71775219999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T22:10:14.554Z"
+        },
+        "2610_fort_worth_ave_dallas_tx_75211_usa": {
+          "addedAt": "2026-01-16T19:21:09.176Z",
+          "additionalInfo": "ICE vehicles parked in the parking lot of this Home Depot.",
+          "address": "2610 Fort Worth Ave, Dallas, TX 75211, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F2610_fort_worth_ave_dallas_tx_75211_usa%2F1768591268354.jpg?alt=media&token=cb65d297-ce44-4e0d-a419-126c1aa744e1",
+          "lat": 32.7561079,
+          "lng": -96.864418,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T21:28:01.029Z"
+        },
+        "2700_n_ballard_rd_appleton_wi_54911_usa": {
+          "addedAt": "2026-01-14T14:31:35.489Z",
+          "additionalInfo": "ICE spotted near pick n save in APPLETON WISCONSIN",
+          "address": "2700 N Ballard Rd, Appleton, WI 54911, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F2700_n_ballard_rd_appleton_wi_54911_usa%2F1768401094876.jpg?alt=media&token=e277ee3a-4ae2-4c7b-b38c-6a7ad8198a8e",
+          "lat": 44.2862802,
+          "lng": -88.3724731,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T22:19:49.672Z"
+        },
+        "2701_e_7th_st_austin_tx_78702_usa": {
+          "addedAt": "2026-01-14T02:04:07.816Z",
+          "additionalInfo": "White SUV parked in the back of HEB parking lot with black push bumper on the front. Guy inside with bully proof vest on with tinted side windows.",
+          "address": "2701 E 7th St, Austin, TX 78702, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F2701_e_7th_st_austin_tx_78702_usa%2F1768356241713.jpg?alt=media&token=662dda2b-de79-442e-acba-d8cbcdde2a31",
+          "lat": 30.2591848,
+          "lng": -97.7115457,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T02:10:04.177Z"
+        },
+        "2705_annapolis_ln_n_plymouth_mn_55441_usa": {
+          "addedAt": "2026-01-14T02:42:29.235Z",
+          "additionalInfo": "Ice agents spotted getting their gear on in the parking lot across from the Ramada hotel in Plymouth, suspected to be staying there.",
+          "address": "2705 Annapolis Ln N, Plymouth, MN 55441, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F2705_annapolis_ln_n_plymouth_mn_55441_usa%2F1768358546153.jpg?alt=media&token=31085e73-ceb4-4065-80f9-b2667d7094ff",
+          "lat": 45.0083831,
+          "lng": -93.45552649999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T05:55:49.938Z"
+        },
+        "270_parke_st_pasadena_ca_91101_usa": {
+          "addedAt": "2026-01-14T18:44:00.372Z",
+          "additionalInfo": "A white van dropped off two people which appear to have vests and are walking around the neighborhood",
+          "address": "270 Parke St, Pasadena, CA 91101, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F270_parke_st_pasadena_ca_91101_usa%2F1768416239258.jpg?alt=media&token=e2ed6689-3f71-490c-81cc-42fe86183376",
+          "lat": 34.1565157,
+          "lng": -118.1452287,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T22:03:22.814Z"
+        },
+        "280_monterey_blvd_i_san_francisco_ca_94131_usa": {
+          "addedAt": "2026-01-16T23:42:19.020Z",
+          "additionalInfo": "Possible ICE Vehicle spotted big black Chevy car. License plate 9SBG809",
+          "address": "280 Monterey Blvd i, San Francisco, CA 94131, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F280_monterey_blvd_i_san_francisco_ca_94131_usa%2F1768606931563.png?alt=media&token=c75615c8-1f04-4ec2-b782-69911bdb82aa",
+          "lat": 37.7317921,
+          "lng": -122.4414732,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T23:58:30.415Z"
+        },
+        "300_e_travelers_trail_burnsville_mn_55337_usa": {
+          "addedAt": "2026-01-15T19:50:27.344Z",
+          "additionalInfo": "3 USBP arrest man",
+          "address": "300 E Travelers Trail, Burnsville, MN 55337, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F300_e_travelers_trail_burnsville_mn_55337_usa%2F1768506626264.png?alt=media&token=7c93fe23-829b-48eb-86b1-d95cb338a80a",
+          "lat": 44.7772625,
+          "lng": -93.2748666,
+          "reported": 2,
+          "verifiedAt": "2026-01-15T20:19:11.382Z"
+        },
+        "300_ehlers_ave_chaska_mn_55318_usa": {
+          "addedAt": "2026-01-15T19:34:11.426Z",
+          "additionalInfo": "multiple ice vehicles being driving through a private neighborhood in chaska. ALSO SILVER DURANGO WITH NO PLATE",
+          "address": "300 Ehlers Ave, Chaska, MN 55318, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F300_ehlers_ave_chaska_mn_55318_usa%2F1768505650296.png?alt=media&token=ec85b607-2c8a-41ea-a3da-ae99f66d2b6f",
+          "lat": 44.80152349999999,
+          "lng": -93.5733607,
+          "reported": 2,
+          "verifiedAt": "2026-01-15T20:36:06.105Z"
+        },
+        "3100_olentangy_river_rd_columbus_oh_43202_usa": {
+          "addedAt": "2026-01-14T15:58:27.377Z",
+          "additionalInfo": "People in my area are sharing this via direct message reporting ICE is staying in hotels along olentangy river Rd. People have reported witnessing these visits and I want to post this here so others are aware!",
+          "address": "3100 Olentangy River Rd, Columbus, OH 43202, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F3100_olentangy_river_rd_columbus_oh_43202_usa%2F1768406305444.png?alt=media&token=a8001c5a-3ffb-4790-854c-87953d040998",
+          "lat": 40.02417639999999,
+          "lng": -83.0249764,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T22:16:57.282Z"
+        },
+        "3101_main_st_vancouver_wa_98663_usa": {
+          "addedAt": "2026-01-16T22:18:41.317Z",
+          "additionalInfo": "Followed while filming when two unmarked trucks who flashed lights while pulling a simultaneous illegal U-turn over a concrete barrier got in front of me. Plates were not law enforcement. Soon a marked Vancouver PD cruiser was traveling with them. A mini van pulled up behind me in my lane and flashed lights, I slowed to the side, it got in front of me and joined the unmarked trucks and Vancouver PD. The mini van also did not have law enforcement plates. They led me to the Shumway neighborhood - ",
+          "address": "3101 Main St, Vancouver, WA 98663, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F3101_main_st_vancouver_wa_98663_usa%2F1768601919617.jpg?alt=media&token=0e46df9c-03fd-4a09-a5c0-245999eec7f7",
+          "lat": 45.6437619,
+          "lng": -122.6687499,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T00:20:31.363Z"
+        },
+        "3213_w_dewey_st_tampa_fl_33607_usa": {
+          "addedAt": "2026-01-17T01:46:55.901Z",
+          "additionalInfo": "Several unmarked vehicles with masked men coming out of them in heavily Hispanic populated area of Tampa, FL.",
+          "address": "3213 W Dewey St, Tampa, FL 33607, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F3213_w_dewey_st_tampa_fl_33607_usa%2F1768614415377.png?alt=media&token=5097a734-a821-4a40-a6ae-d03bc4b3ff7e",
+          "lat": 27.9713483,
+          "lng": -82.4962353,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T01:47:07.889Z"
+        },
+        "3244_irving_ave_s_minneapolis_mn_55408_usa": {
+          "addedAt": "2026-01-13T20:45:25.481Z",
+          "additionalInfo": "Two ICE agents driving white SUV heading East on 33rd ave. Car trailing and blowing whistle. Agents stopped mid-street to reprimand the driver. No weapons visible, but wearing full garb and masks on.",
+          "address": "3244 Irving Ave S, Minneapolis, MN 55408, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F3244_irving_ave_s_minneapolis_mn_55408_usa%2F1768337124966.png?alt=media&token=2c1228c1-f066-4602-a458-7b76fa3637f0",
+          "lat": 44.9433111,
+          "lng": -93.3024197,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T22:41:41.377Z"
+        },
+        "328_1st_st_los_angeles_ca_90012_usa": {
+          "addedAt": "2026-01-14T20:51:06.365Z",
+          "additionalInfo": "There were 3 agents in two cars:\n\nGrey Dodge Durango:\nCALIFORNIA\n9RSB969\n\nSlate Blue Ford:\nMEXICO (Puebla)\nTWN-44-56\n\nThis happened right in the entrance to the parking area for the Miyako Hotel in Little Tokyo.",
+          "address": "328 1st St, Los Angeles, CA 90012, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F328_1st_st_los_angeles_ca_90012_usa%2F1768423865448.png?alt=media&token=eb1d4a79-6632-4226-b773-79efab0c5fd7",
+          "lat": 34.0495826,
+          "lng": -118.240404,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T21:57:08.140Z"
+        },
+        "350_governor_st_green_cove_springs_fl_32043_usa": {
+          "addedAt": "2026-01-14T16:29:19.210Z",
+          "additionalInfo": "Extremely heavy (More than I have ever seen) Florida Highway Patrol presence on Highway 17, also heard reports of Vans parked at the Home Depot on Wells Road up north. Saw someone being arrested in front of my building but not sure if it was ICE. Sending this report in because Im not hearing much else yet.",
+          "address": "350 Governor St, Green Cove Springs, FL 32043, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F350_governor_st_green_cove_springs_fl_32043_usa%2F1768408157157.png?alt=media&token=33d1501a-ba08-4773-a068-f895c10f6f27",
+          "lat": 30.005634,
+          "lng": -81.6903169,
+          "reported": 3,
+          "verifiedAt": "2026-01-14T22:12:09.666Z"
+        },
+        "3515_dayton_blvd_chattanooga_tn_37415_usa": {
+          "addedAt": "2026-01-15T19:51:06.883Z",
+          "additionalInfo": "In an unmarked police car, wearing face mask, saw them while they were getting gas.",
+          "address": "3515 Dayton Blvd, Chattanooga, TN 37415, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F3515_dayton_blvd_chattanooga_tn_37415_usa%2F1768506666063.jpg?alt=media&token=ac29b345-11b6-44c4-ac58-f5a9df95fac5",
+          "lat": 35.1140227,
+          "lng": -85.2931808,
+          "reported": 2,
+          "verifiedAt": "2026-01-15T20:19:05.186Z"
+        },
+        "351_kersey_st_coatesville_pa_19320_usa": {
+          "addedAt": "2026-01-13T15:26:24.275Z",
+          "additionalInfo": "Near Gordon Early Literacy Center",
+          "address": "351 Kersey St, Coatesville, PA 19320, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F351_kersey_st_coatesville_pa_19320_usa%2F1768317983669.jpg?alt=media&token=76f7b3bb-5614-476a-9bb0-f937ac7309f8",
+          "lat": 39.9825128,
+          "lng": -75.8178572,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T19:01:02.296Z"
+        },
+        "3639_martin_luther_king_jr_way_s_seattle_wa_98144_usa": {
+          "addedAt": "2026-01-15T20:01:49.983Z",
+          "additionalInfo": "ICE presence at ACRS, in Seattle. Not inside the building.",
+          "address": "3639 Martin Luther King Jr Way S, Seattle, WA 98144, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F3639_martin_luther_king_jr_way_s_seattle_wa_98144_usa%2F1768507309163.jpg?alt=media&token=55242514-cfdf-4680-8696-ac2df4d26f83",
+          "lat": 47.57090669999999,
+          "lng": -122.2974763,
+          "reported": 2,
+          "verifiedAt": "2026-01-15T20:18:46.792Z"
+        },
+        "368_micah_way_scottsboro_al_35769_usa": {
+          "addedAt": "2026-01-16T18:44:50.241Z",
+          "additionalInfo": "ICE has been spotted at Chick fil A in Scottsboro, AL. A police car is driving with each ICE vehicle in order to pull people over. Anyone that looks Hispanic is being pulled over.",
+          "address": "368 Micah Way, Scottsboro, AL 35769, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F368_micah_way_scottsboro_al_35769_usa%2F1768589089628.jpg?alt=media&token=3ab1bee0-11e6-48c2-99ad-7adee09cb746",
+          "lat": 34.6615037,
+          "lng": -86.0128471,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T00:41:00.725Z"
+        },
+        "36_wendell_ave_quincy_ma_02170_usa": {
+          "addedAt": "2026-01-15T22:05:40.404Z",
+          "additionalInfo": "ICE agents were checking out Eastern Nazarene college in Quincy this afternoon which closed in 2025. Potentially as a barracks/housing opportunity.",
+          "address": "36 Wendell Ave, Quincy, MA 02170, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F36_wendell_ave_quincy_ma_02170_usa%2F1768514736954.jpg?alt=media&token=4a4b60a4-88a5-4d0b-be76-80d37bef07f4",
+          "lat": 42.2718156,
+          "lng": -71.0107289,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T00:23:19.399Z"
+        },
+        "36th_ave_quebec_st_denver_co_80266_usa": {
+          "addedAt": "2026-01-16T19:27:54.208Z",
+          "additionalInfo": "Ice agents seen near the Quebec square shopping center.",
+          "address": "36th Ave & Quebec St, Denver, CO 80266, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F36th_ave_quebec_st_denver_co_80266_usa%2F1768591673534.jpg?alt=media&token=5c1996cf-28e7-4b7a-bcf9-0d7cb033319b",
+          "lat": 39.767289,
+          "lng": -104.901783,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T21:27:29.083Z"
+        },
+        "370_us_22_green_brook_township_nj_08812_usa": {
+          "addedAt": "2026-01-17T03:30:44.997Z",
+          "additionalInfo": "Unmarked trucks pulling people over on Rt 22 in Greenbrook township; trucks spotted in lots on both 22 East and 22 West.  Sheriff also spotted in a lot on 22, so probable cooperation with local LEO.",
+          "address": "370 US-22, Green Brook Township, NJ 08812, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F370_us_22_green_brook_township_nj_08812_usa%2F1768620644278.png?alt=media&token=6a82d194-ffa3-40f9-a125-2479d4640341",
+          "lat": 40.5862863,
+          "lng": -74.5099111,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T04:50:56.442Z"
+        },
+        "379_st_peter_st_st_paul_mn_55102_usa": {
+          "addedAt": "2026-01-13T22:45:39.049Z",
+          "additionalInfo": "Dept. of Homeland Security helicopter (tail number N893N) circling downtown St. Paul and surrounding area on Tuesday January 13 around noon.",
+          "address": "379 St Peter St, St Paul, MN 55102, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F379_st_peter_st_st_paul_mn_55102_usa%2F1768344338407.jpg?alt=media&token=86e13643-0e08-4dff-b1a0-f5e9d6fc1e76",
+          "lat": 44.9454698,
+          "lng": -93.0962923,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T22:46:05.504Z"
+        },
+        "3947_116th_st_ne_marysville_wa_98271_usa": {
+          "addedAt": "2026-01-14T05:51:15.461Z",
+          "additionalInfo": "3 vans full of guys, blacked out windows",
+          "address": "3947 116th St NE, Marysville, WA 98271, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F3947_116th_st_ne_marysville_wa_98271_usa%2F1768369873920.jpg?alt=media&token=c99e080c-eb13-465c-ad4e-1c9ef67b21b0",
+          "lat": 48.1009873,
+          "lng": -122.1774596,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T05:54:04.973Z"
+        },
+        "3951_e_fletcher_ave_tampa_fl_33613_usa": {
+          "addedAt": "2026-01-16T00:41:22.313Z",
+          "additionalInfo": "In the temple terrace area on highway and near usf",
+          "address": "3951 E Fletcher Ave, Tampa, FL 33613, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F3951_e_fletcher_ave_tampa_fl_33613_usa%2F1768524081365.png?alt=media&token=b11149a4-650e-4df3-97e2-33aa7b2d23e7",
+          "lat": 28.0690419,
+          "lng": -82.4099066,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T05:32:14.194Z"
+        },
+        "400_e_jefferson_st_charlottesville_va_22902_usa": {
+          "addedAt": "2026-01-13T19:03:21.182Z",
+          "additionalInfo": "DHS vehicle spotted on the street, corner of 4th St NE and E Jefferson just off the downtown mall. License plates G62B1845.",
+          "address": "400 E Jefferson St, Charlottesville, VA 22902, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F400_e_jefferson_st_charlottesville_va_22902_usa%2F1768331000030.jpg?alt=media&token=c0d360dd-cab8-4779-9600-18e7d336e315",
+          "lat": 38.0314157,
+          "lng": -78.4785117,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T22:46:18.688Z"
+        },
+        "400_second_st_laurel_md_20707_usa": {
+          "addedAt": "2026-01-15T12:19:45.972Z",
+          "additionalInfo": "ICE pulled over a white work van and are taking people in handcuffs. I couldn\u2019t stop to get a photo but it is shown here as a collision on Google Maps. I saw the men had vests that said ICE and POLICE on them. And I saw them leading a man to a police vehicle in handcuffs.",
+          "address": "400 Second St, Laurel, MD 20707, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F400_second_st_laurel_md_20707_usa%2F1768479574764.png?alt=media&token=41afac63-7348-466f-b9a5-d0f17046c717",
+          "lat": 39.0985301,
+          "lng": -76.84651,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T05:54:50.344Z"
+        },
+        "4040_s_lamar_blvd_austin_tx_78704_usa": {
+          "addedAt": "2026-01-15T20:07:50.377Z",
+          "additionalInfo": "Brodie oaks shopping center, in an empty parking lot by poke-joes/pinthouse pizza, ICE meet up, some kind of training or meeting. Agents pulling up in personal cars, military vehicles, white trucks and SUV\u2019s, all ghost police cars or are unmarked. Walking around a shopping center armed with AR\u2019s, stay safe everyone",
+          "address": "4040 S Lamar Blvd, Austin, TX 78704, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F4040_s_lamar_blvd_austin_tx_78704_usa%2F1768507664535.jpg?alt=media&token=b23f6056-0acd-47a0-b6b3-bf8f046a28cd",
+          "lat": 30.2374577,
+          "lng": -97.7955021,
+          "reported": 4,
+          "verifiedAt": "2026-01-15T20:18:17.226Z"
+        },
+        "415_e_12th_st_kansas_city_mo_64106_usa": {
+          "addedAt": "2026-01-13T23:07:40.808Z",
+          "additionalInfo": "One agent in full uniform outside the Jackson county courthouse",
+          "address": "415 E 12th St, Kansas City, MO 64106, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F415_e_12th_st_kansas_city_mo_64106_usa%2F1768345659956.png?alt=media&token=05c00be5-6e89-4289-9d3b-be84aa5087a9",
+          "lat": 39.0992246,
+          "lng": -94.57804,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T23:43:04.684Z"
+        },
+        "417_crescent_ave_avalon_ca_90704_usa": {
+          "addedAt": "2026-01-16T21:29:59.093Z",
+          "additionalInfo": "CBP Air and Marine Enforcement seen",
+          "address": "417 Crescent Ave, Avalon, CA 90704, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F417_crescent_ave_avalon_ca_90704_usa%2F1768598969742.jpg?alt=media&token=e50db020-1445-4dc7-b7ef-a9769c9181bc",
+          "lat": 33.3432633,
+          "lng": -118.3256284,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T21:33:28.388Z"
+        },
+        "4450_eastgate_s_dr_cincinnati_oh_45245_usa": {
+          "addedAt": "2026-01-14T13:30:38.017Z",
+          "additionalInfo": "Several vans pulled up in front and back armed and masked \u201cofficers\u201d entered store",
+          "address": "4450 Eastgate S Dr, Cincinnati, OH 45245, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F4450_eastgate_s_dr_cincinnati_oh_45245_usa%2F1768397436743.jpg?alt=media&token=d9214173-b92c-4aec-85e7-3bcff6561c35",
+          "lat": 39.0932879,
+          "lng": -84.27177809999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T22:20:04.232Z"
+        },
+        "44_e_newnan_rd_newnan_ga_30263_usa": {
+          "addedAt": "2026-01-14T21:35:58.072Z",
+          "additionalInfo": "At least 3 ICE vehicles. Black SUV, Black Truck and Grey truck",
+          "address": "44 E Newnan Rd, Newnan, GA 30263, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F44_e_newnan_rd_newnan_ga_30263_usa%2F1768426557449.jpg?alt=media&token=80c9b64d-2e17-42e8-a521-32895f7493f7",
+          "lat": 33.363499,
+          "lng": -84.77914969999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T21:48:29.582Z"
+        },
+        "4545_worlds_of_fun_ave_kansas_city_mo_64161_usa": {
+          "addedAt": "2026-01-15T01:31:51.566Z",
+          "additionalInfo": "Marked ICE Vehicles in Kansas City, Missouri, near worlds of fun",
+          "address": "4545 Worlds of Fun Ave, Kansas City, MO 64161, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F4545_worlds_of_fun_ave_kansas_city_mo_64161_usa%2F1768440707835.jpg?alt=media&token=dfa72e16-4f55-41b4-b1dd-8e1df62bfe60",
+          "lat": 39.1747469,
+          "lng": -94.48770189999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-15T06:58:38.617Z"
+        },
+        "479_mary_st_s_maplewood_mn_55119_usa": {
+          "addedAt": "2026-01-14T18:02:18.392Z",
+          "additionalInfo": "Black SUV and Black pickup , both with emergency lights, boxed in a small silver car and several ICE agents appeared to remove the driver into one of their vehicles. An ICE agent then parked the empty car across the street. Another large black vehicle with lights drove through the area, and all three vehicles left eastward down Mailand Rd, then N on Sterling  St S.",
+          "address": "479 Mary St S, Maplewood, MN 55119, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F479_mary_st_s_maplewood_mn_55119_usa%2F1768413735981.png?alt=media&token=ea1a9080-f9c2-456d-822f-0d538899d9f8",
+          "lat": 44.9270974,
+          "lng": -92.9939802,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T22:07:21.864Z"
+        },
+        "4927_university_ave_ne_minneapolis_mn_55421_usa": {
+          "addedAt": "2026-01-14T21:05:23.018Z",
+          "additionalInfo": "They arrested 2 people",
+          "address": "4927 University Ave NE, Minneapolis, MN 55421, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F4927_university_ave_ne_minneapolis_mn_55421_usa%2F1768424718290.png?alt=media&token=4ef70787-ed6b-4ccd-9a05-620705b974be",
+          "lat": 45.0581512,
+          "lng": -93.26248389999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T21:55:09.485Z"
+        },
+        "5000_s_arizona_mills_cir_tempe_az_85282_usa": {
+          "addedAt": "2026-01-14T15:59:05.725Z",
+          "additionalInfo": "Large gathering of agents around backside of mall",
+          "address": "5000 S Arizona Mills Cir, Tempe, AZ 85282, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F5000_s_arizona_mills_cir_tempe_az_85282_usa%2F1768406343208.jpg?alt=media&token=8ce16533-bd73-41dc-9f1f-80fcb7cb0272",
+          "lat": 33.383125,
+          "lng": -111.964485,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T22:16:38.473Z"
+        },
+        "500_w_thames_st_norwich_ct_06360_usa": {
+          "addedAt": "2026-01-16T20:13:38.540Z",
+          "additionalInfo": "Charles Toyota  - Norwich \n5 agents went inside, 2 just walked out with this guy. The other 3 are still inside",
+          "address": "500 W Thames St, Norwich, CT 06360, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F500_w_thames_st_norwich_ct_06360_usa%2F1768594417818.jpg?alt=media&token=910892c7-2ef9-43c1-993f-0d9796baf7a7",
+          "lat": 41.5034979,
+          "lng": -72.0910104,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T21:22:33.772Z"
+        },
+        "503_1st_ave_s_nitro_wv_25143_usa": {
+          "addedAt": "2026-01-16T21:41:16.809Z",
+          "additionalInfo": "Ice on site",
+          "address": "503 1st Ave S, Nitro, WV 25143, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F503_1st_ave_s_nitro_wv_25143_usa%2F1768599675988.jpg?alt=media&token=8f7fafb3-e27d-4da3-aaa5-3a0d1cc00de0",
+          "lat": 38.3961266,
+          "lng": -81.83065169999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T21:51:08.238Z"
+        },
+        "524_20th_ave_ne_minneapolis_mn_55418_usa": {
+          "addedAt": "2026-01-16T05:32:46.180Z",
+          "additionalInfo": "Saw 2 SUV with masked drivers watching passerby\u2019s as they drove.",
+          "address": "524 20th Ave NE, Minneapolis, MN 55418, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F524_20th_ave_ne_minneapolis_mn_55418_usa%2F1768541564839.jpg?alt=media&token=f0745ac4-6668-452c-875c-3e9f47c59011",
+          "lat": 45.0083895,
+          "lng": -93.25896329999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T05:33:05.365Z"
+        },
+        "535_s_alma_school_rd_60_mesa_az_85210_usa": {
+          "addedAt": "2026-01-17T06:21:50.862Z",
+          "additionalInfo": "1/13/26 9:30am landscapers pulled out of trucks and handcuffed",
+          "address": "535 S Alma School Rd #60, Mesa, AZ 85210, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F535_s_alma_school_rd_60_mesa_az_85210_usa%2F1768630909939.jpg?alt=media&token=ff0a83a9-bae2-405f-8e1a-7b1e6b7eab9a",
+          "lat": 33.4056762,
+          "lng": -111.8552693,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T06:33:14.945Z"
+        },
+        "5370_w_16th_st_st_louis_park_mn_55416_usa": {
+          "addedAt": "2026-01-15T02:02:43.231Z",
+          "additionalInfo": "4+ vehicles, black and white SUVs, each containing 2 masked border patrol or ICE officers, driving slowly arround the parking lot for at least 20 minutes. Several had out of state plates including CA and FL",
+          "address": "5370 W 16th St, St Louis Park, MN 55416, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F5370_w_16th_st_st_louis_park_mn_55416_usa%2F1768442562609.jpg?alt=media&token=d600cbab-7da8-4816-a824-2a2a974ff575",
+          "lat": 44.96808799999999,
+          "lng": -93.3489085,
+          "reported": 2,
+          "verifiedAt": "2026-01-15T06:57:44.624Z"
+        },
+        "550_vandalia_st_ste_220b_st_paul_mn_55114_usa": {
+          "addedAt": "2026-01-14T00:42:08.674Z",
+          "additionalInfo": "About 5 unmarked ICE vehicles with lights on, all presumably for one car. Just off the vandalia street exit on 94.",
+          "address": "550 Vandalia St Ste. 220B, St Paul, MN 55114, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F550_vandalia_st_ste_220b_st_paul_mn_55114_usa%2F1768351324066.png?alt=media&token=becacc15-d78c-49c9-8351-e8ce0d7d55fe",
+          "lat": 44.9577507,
+          "lng": -93.1910295,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T02:10:36.748Z"
+        },
+        "5580_federal_blvd_westminster_co_80221_usa": {
+          "addedAt": "2026-01-16T22:31:37.357Z",
+          "additionalInfo": "ICE agents stopping people and asking for ID at the gas station.",
+          "address": "5580 Federal Blvd, Westminster, CO 80221, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F5580_federal_blvd_westminster_co_80221_usa%2F1768602696934.jpg?alt=media&token=3e3d1e27-57d1-48d3-b68a-aeeaa344964f",
+          "lat": 39.7977076,
+          "lng": -105.0249102,
+          "reported": 4,
+          "verifiedAt": "2026-01-17T00:05:23.546Z"
+        },
+        "5601_w_78th_st_edina_mn_55439_usa": {
+          "addedAt": "2026-01-14T02:48:06.743Z",
+          "additionalInfo": "They are staying at the hotel, sheraton",
+          "address": "5601 W 78th St, Edina, MN 55439, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F5601_w_78th_st_edina_mn_55439_usa%2F1768358882405.jpg?alt=media&token=54faa905-9d78-405f-98ec-a41ad185abee",
+          "lat": 44.8605084,
+          "lng": -93.3546525,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T05:55:28.014Z"
+        },
+        "5800_cedar_lk_rd_s_st_louis_park_mn_55416_usa": {
+          "addedAt": "2026-01-14T19:45:58.479Z",
+          "additionalInfo": "Saw multiple ice vehicles with at least 4 guys in each. One black pickup, a white mini van and a silver sedan",
+          "address": "5800 Cedar Lk Rd S, St Louis Park, MN 55416, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F5800_cedar_lk_rd_s_st_louis_park_mn_55416_usa%2F1768419957079.jpg?alt=media&token=1c8799a5-913c-4d7c-9488-11594989dfe5",
+          "lat": 44.9650822,
+          "lng": -93.3526179,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T21:58:35.657Z"
+        },
+        "5925_earle_brown_dr_brooklyn_center_mn_55430_usa": {
+          "addedAt": "2026-01-14T19:37:11.217Z",
+          "additionalInfo": "Detained our driver at Restoran depot lot. He was delivering a load to them. \n#2 RESTAURANT DEPOT #455\n5925 Earle Brown Dr.\nBrooklyn Center,MN/ 55428",
+          "address": "5925 Earle Brown Dr, Brooklyn Center, MN 55430, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F5925_earle_brown_dr_brooklyn_center_mn_55430_usa%2F1768419426901.jpg?alt=media&token=4e755969-3b4a-4471-afdb-145ff49d7140",
+          "lat": 45.06404879999999,
+          "lng": -93.30745929999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T21:58:51.336Z"
+        },
+        "600_dodge_ave_nw_elk_river_mn_55330_usa": {
+          "addedAt": "2026-01-13T19:16:37.374Z",
+          "additionalInfo": "That I know of the entire staff was kidnapped and taking away two days ago. They have been closed every sense.",
+          "address": "600 Dodge Ave NW, Elk River, MN 55330, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F600_dodge_ave_nw_elk_river_mn_55330_usa%2F1768331796246.jpg?alt=media&token=fbe4cc79-9230-4a1f-8034-169d2df2c967",
+          "lat": 45.3089922,
+          "lng": -93.5558641,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T22:45:27.765Z"
+        },
+        "601_randolph_ave_fergus_falls_mn_56537_usa": {
+          "addedAt": "2026-01-14T18:33:18.549Z",
+          "additionalInfo": "Driving by kss in Fergus Falls MN red ford suv with visor lights .",
+          "address": "601 Randolph Ave, Fergus Falls, MN 56537, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F601_randolph_ave_fergus_falls_mn_56537_usa%2F1768415597782.png?alt=media&token=ddc463ed-9ad2-4dab-a628-b29aaafe0dde",
+          "lat": 46.290297,
+          "lng": -96.06457879999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T22:04:18.589Z"
+        },
+        "615_washington_ave_se_minneapolis_mn_55455_usa": {
+          "addedAt": "2026-01-14T05:14:42.351Z",
+          "additionalInfo": "Reportedly ICE agents staying here tonight...wake them up!!!",
+          "address": "615 Washington Ave SE, Minneapolis, MN 55455, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F615_washington_ave_se_minneapolis_mn_55455_usa%2F1768367681119.webp?alt=media&token=ea531d9c-eb94-4e05-9c0a-5480e3edc9e3",
+          "lat": 44.9737709,
+          "lng": -93.22957799999999,
+          "reported": 4,
+          "verifiedAt": "2026-01-14T05:18:24.978Z"
+        },
+        "6300_earle_brown_dr_brooklyn_center_mn_55430_usa": {
+          "addedAt": "2026-01-15T06:57:19.925Z",
+          "additionalInfo": "Spotted several ICE vehicles at the Embassy Suites 0850 on 1/14/2026.  At least 8 vehicles and saw one ICE agent with mask and gear bag.",
+          "address": "6300 Earle Brown Dr, Brooklyn Center, MN 55430, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F6300_earle_brown_dr_brooklyn_center_mn_55430_usa%2F1768416657998.png?alt=media&token=cd101946-8067-4100-be29-0ca958e8a497",
+          "lat": 45.0680239,
+          "lng": -93.3046035,
+          "reported": 3,
+          "verifiedAt": "2026-01-14T22:02:47.752Z"
+        },
+        "66_cordial_ct_falling_waters_wv_25419_usa": {
+          "addedAt": "2026-01-16T00:26:42.046Z",
+          "additionalInfo": "ICE in uniform with \u201cPolice ICE\u201d on the back arresting a female who was seated in the driver\u2019s seat of a vehicle in the Burger King parking lot around 5:45pm. ICE vehicle was an unmarked white large SUV",
+          "address": "66 Cordial Ct, Falling Waters, WV 25419, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F66_cordial_ct_falling_waters_wv_25419_usa%2F1768523201225.png?alt=media&token=8bcd434b-ebab-4cda-ae83-ec7536a4b334",
+          "lat": 39.5473865,
+          "lng": -77.9137377,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T05:33:35.978Z"
+        },
+        "6700_ne_killingsworth_st_portland_or_97218_usa": {
+          "addedAt": "2026-01-13T22:57:11.958Z",
+          "additionalInfo": "a bunch of unmarked civilian cars with sirens heading NE towards Colombia Blvd and Lombard\u2014 I was driving opposite and couldn\u2019t take a picture",
+          "address": "6700 NE Killingsworth St, Portland, OR 97218, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F6700_ne_killingsworth_st_portland_or_97218_usa%2F1768345031011.jpg?alt=media&token=171d2489-996c-4944-8b21-cd75c0908aa1",
+          "lat": 45.5625274,
+          "lng": -122.5940242,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T23:43:19.546Z"
+        },
+        "670_turner_st_auburn_me_04210_usa": {
+          "addedAt": "2026-01-16T21:25:11.979Z",
+          "additionalInfo": "ICE agents being housed at Residence Inn by Marriott Auburn",
+          "address": "670 Turner St, Auburn, ME 04210, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F670_turner_st_auburn_me_04210_usa%2F1768598711508.jpg?alt=media&token=78213ddd-1f57-4186-b403-dc2d93db4881",
+          "lat": 44.1194652,
+          "lng": -70.2337095,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T21:25:40.619Z"
+        },
+        "676_bielenberg_dr_woodbury_mn_55125_usa": {
+          "addedAt": "2026-01-15T17:53:38.385Z",
+          "additionalInfo": "ICE agents staying in hotel, around 70 of them with multiple vehicles outside.",
+          "address": "676 Bielenberg Dr, Woodbury, MN 55125, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F676_bielenberg_dr_woodbury_mn_55125_usa%2F1768499617774.jpg?alt=media&token=86bb73ec-508b-48c2-b6fc-6c906781f126",
+          "lat": 44.9390046,
+          "lng": -92.9565061,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T05:38:34.464Z"
+        },
+        "710_n_4th_st_minneapolis_mn_55401_usa": {
+          "addedAt": "2026-01-15T01:00:14.225Z",
+          "additionalInfo": "2 masked officers walking up and down the streets",
+          "address": "710 N 4th St, Minneapolis, MN 55401, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F710_n_4th_st_minneapolis_mn_55401_usa%2F1768438813472.jpg?alt=media&token=514d7088-d67b-4fad-a6f1-f58aa1de8845",
+          "lat": 44.98619069999999,
+          "lng": -93.27889019999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-15T06:58:46.127Z"
+        },
+        "748_s_meadows_pkwy_reno_nv_89521_usa": {
+          "addedAt": "2026-01-15T19:06:35.854Z",
+          "additionalInfo": "Ice in plain clothes driving around the area of Dutch Brothers and Grateful Gardens in parking lots. Multiple trucks with Texas license plates. One a 4 door black (Ford?) truck, other a white Dodge 4 door pick up. \nMultiple men... Stay safe!!!",
+          "address": "748 S Meadows Pkwy, Reno, NV 89521, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F748_s_meadows_pkwy_reno_nv_89521_usa%2F1768503994190.png?alt=media&token=cd682766-8914-4f4b-937a-572ba249893c",
+          "lat": 39.4370154,
+          "lng": -119.7573238,
+          "reported": 2,
+          "verifiedAt": "2026-01-15T20:38:23.528Z"
+        },
+        "770_heinel_dr_roseville_mn_55113_usa": {
+          "addedAt": "2026-01-14T02:50:06.471Z",
+          "additionalInfo": "ICE officers are renting Air BNB at this address. Notifications have been shared with neighbors.",
+          "address": "770 Heinel Dr, Roseville, MN 55113, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F770_heinel_dr_roseville_mn_55113_usa%2F1768359005355.jpg?alt=media&token=328080cd-2724-4c23-a51a-5361b36a41dc",
+          "lat": 45.0236852,
+          "lng": -93.1325371,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T05:55:13.643Z"
+        },
+        "800_key_hwy_baltimore_md_21230_usa": {
+          "addedAt": "2026-01-16T19:10:14.794Z",
+          "additionalInfo": "Boarder patrol in Baltimore",
+          "address": "800 Key Hwy, Baltimore, MD 21230, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F800_key_hwy_baltimore_md_21230_usa%2F1768590611970.jpg?alt=media&token=7fc48e8b-a7d8-4407-89b4-946bd35ae401",
+          "lat": 39.27985109999999,
+          "lng": -76.6067916,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T00:39:41.941Z"
+        },
+        "800_prudential_dr_jacksonville_fl_32207_usa": {
+          "addedAt": "2026-01-14T16:18:33.418Z",
+          "additionalInfo": "Est\u00e1n en el estacionamiento del downtown",
+          "address": "800 Prudential Dr, Jacksonville, FL 32207, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F800_prudential_dr_jacksonville_fl_32207_usa%2F1768407512619.jpg?alt=media&token=c89448bd-2dca-4ad9-9979-3445ab5b6cd5",
+          "lat": 30.3158566,
+          "lng": -81.66407819999999,
+          "reported": 4,
+          "verifiedAt": "2026-01-14T22:12:23.084Z"
+        },
+        "801_bass_pro_dr_nw_altoona_ia_50009_usa": {
+          "addedAt": "2026-01-16T23:00:08.011Z",
+          "additionalInfo": "ICE agent(s) spotted near Bass pro/outlet malls.",
+          "address": "801 Bass Pro Dr NW, Altoona, IA 50009, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F801_bass_pro_dr_nw_altoona_ia_50009_usa%2F1768604407064.png?alt=media&token=b4f2544b-9cd3-4750-81e2-263d1982bcfb",
+          "lat": 41.6567012,
+          "lng": -93.51361299999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T00:04:01.311Z"
+        },
+        "823_s_arizona_ave_tucson_az_85701_usa": {
+          "addedAt": "2026-01-15T15:48:09.404Z",
+          "additionalInfo": "At least 10 unmarked vehicles blocking the alleyway between 18th st and 19th st on Arizona Ave. they are breaking into 823 Arizona Ave. probably 20 ice agents standing around outside and going in and out of the house. I haven\u2019t seen anyone who lives there come out. Started around 7:15am. They are all armed",
+          "address": "823 S Arizona Ave, Tucson, AZ 85701, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F823_s_arizona_ave_tucson_az_85701_usa%2F1768492084278.jpg?alt=media&token=e53c25b3-9eca-4f37-af83-baae7421c124",
+          "lat": 32.2114464,
+          "lng": -110.9676189,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T05:48:21.974Z"
+        },
+        "8240_merrill_rd_jacksonville_fl_32277_usa": {
+          "addedAt": "2026-01-13T14:22:22.398Z",
+          "additionalInfo": "2 showed up to get gas. They are in the Arlington area of Jacksonville Fl. 8:45-9:00am Jan13 26",
+          "address": "8240 Merrill Rd, Jacksonville, FL 32277, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F8240_merrill_rd_jacksonville_fl_32277_usa%2F1768314140265.png?alt=media&token=f110f33a-3766-4a9b-89b4-07b3a47e2196",
+          "lat": 30.3520822,
+          "lng": -81.5601568,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T19:01:13.803Z"
+        },
+        "830_n_2nd_st_el_cajon_ca_92021_usa": {
+          "addedAt": "2026-01-15T20:13:46.124Z",
+          "additionalInfo": "NOT MY PHOTO. Found on a local FB page. ICE kidnapping in El Cajon. Around 10 AM PST, January 15th 2026.",
+          "address": "830 N 2nd St, El Cajon, CA 92021, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F830_n_2nd_st_el_cajon_ca_92021_usa%2F1768508025100.jpg?alt=media&token=260c784a-847b-4277-97ef-eea4a1e91f92",
+          "lat": 32.8059303,
+          "lng": -116.9360415,
+          "reported": 2,
+          "verifiedAt": "2026-01-15T20:17:51.990Z"
+        },
+        "8403_atlantic_blvd_jacksonville_fl_32211_usa": {
+          "addedAt": "2026-01-15T13:09:45.046Z",
+          "additionalInfo": "White van pulled over. 2 Jacksonville Sheriff vehicles and one unmarked vehicle behind van.",
+          "address": "8403 Atlantic Blvd, Jacksonville, FL 32211, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F8403_atlantic_blvd_jacksonville_fl_32211_usa%2F1768482582711.jpg?alt=media&token=ddf85df8-956e-4e7a-a759-5b34034a952b",
+          "lat": 30.314362,
+          "lng": -81.56872589999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T05:52:35.471Z"
+        },
+        "865_victoria_antioch_il_60002_usa": {
+          "addedAt": "2026-01-14T03:44:59.294Z",
+          "additionalInfo": "multiple ICE vehicles spotted, California and Washington license plates. Followed them until they pulled over to wait until I passed them. Unable to secure a photo",
+          "address": "865 Victoria, Antioch, IL 60002, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F865_victoria_antioch_il_60002_usa%2F1768362298137.jpg?alt=media&token=2dfc2ceb-2797-4484-9e7d-ab867e6053f3",
+          "lat": 42.4772135,
+          "lng": -88.0967952,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T05:54:55.392Z"
+        },
+        "8831_venice_blvd_los_angeles_ca_90034_usa": {
+          "addedAt": "2026-01-14T23:27:29.158Z",
+          "additionalInfo": "I saw ICE agents patrolling this neighborhood stalking the residents in the neighborhood.",
+          "address": "8831 Venice Blvd., Los Angeles, CA 90034, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F8831_venice_blvd_los_angeles_ca_90034_usa%2F1768433248421.jpg?alt=media&token=d4b4d233-3a0c-4691-8360-6648c5595d98",
+          "lat": 34.030813,
+          "lng": -118.3863253,
+          "reported": 2,
+          "verifiedAt": "2026-01-15T07:00:00.149Z"
+        },
+        "9061_seward_park_ave_s_seattle_wa_98118_usa": {
+          "addedAt": "2026-01-16T03:18:32.749Z",
+          "additionalInfo": "ICE IS INFRONT OF RANIER BEACH HIGHSCHOOL, THEY ARE INFRONT OF DOLLAR TREE AND PLANET FITNESS.",
+          "address": "9061 Seward Park Ave S, Seattle, WA 98118, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F9061_seward_park_ave_s_seattle_wa_98118_usa%2F1768533508342.jpg?alt=media&token=68c6f414-6362-4f1f-8874-d7a86910b201",
+          "lat": 47.5214955,
+          "lng": -122.26431,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T05:17:50.387Z"
+        },
+        "906_w_front_st_albert_lea_mn_56007_usa": {
+          "addedAt": "2026-01-13T22:47:35.677Z",
+          "additionalInfo": "Ice stopped at kwik trip and took someone and left their car in the middle of the parking lot. They are actively driving around trailer homes and factories.",
+          "address": "906 W Front St, Albert Lea, MN 56007, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F906_w_front_st_albert_lea_mn_56007_usa%2F1768344441549.jpg?alt=media&token=0a445d4d-d33e-40d7-9adc-f428058f45c5",
+          "lat": 43.6441993,
+          "lng": -93.3803085,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T23:43:44.375Z"
+        },
+        "930_palm_ave_south_pasadena_ca_91030_usa": {
+          "addedAt": "2026-01-16T19:49:48.033Z",
+          "additionalInfo": "Suspicious male going down Palm Ave and stopping in front of each house to take photos of the front entrance. Had a clipboard and was writing down information. Drove away once I took a picture of the license plate",
+          "address": "930 Palm Ave, South Pasadena, CA 91030, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F930_palm_ave_south_pasadena_ca_91030_usa%2F1768592986598.jpg?alt=media&token=9b9e19cb-4283-4c32-8aa4-a9c45aa7fd89",
+          "lat": 34.1144626,
+          "lng": -118.1632962,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T21:26:39.221Z"
+        },
+        "950_lake_carillon_dr_st_petersburg_fl_33716_usa": {
+          "addedAt": "2026-01-14T20:08:48.336Z",
+          "additionalInfo": "Police and DHS presence at Hilton Lake Carillon Hotel in St. Pete from today.",
+          "address": "950 Lake Carillon Dr, St. Petersburg, FL 33716, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F950_lake_carillon_dr_st_petersburg_fl_33716_usa%2F1768421326594.png?alt=media&token=88707a5c-4722-488c-b8b4-ab5b401b0047",
+          "lat": 27.8901527,
+          "lng": -82.66557399999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T21:57:38.152Z"
+        },
+        "957_cortland_dr_apple_valley_mn_55124_usa": {
+          "addedAt": "2026-01-14T17:05:11.905Z",
+          "additionalInfo": "they just pulled up and Im alone walking by, not going to engage, dont know if its ICE, but its likely. 3 cars, 2 unmarked, 1 with not markings but police lights.",
+          "address": "957 Cortland Dr, Apple Valley, MN 55124, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2F957_cortland_dr_apple_valley_mn_55124_usa%2F1768410308751.jpg?alt=media&token=a434d347-02e0-47df-a0d0-ac9e27a77dea",
+          "lat": 44.73017,
+          "lng": -93.2342255,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T22:10:43.636Z"
+        },
+        "alexandria_dr_lexington_ky_usa": {
+          "addedAt": "2026-01-17T04:24:29.043Z",
+          "additionalInfo": "Ice spotted in different areas of Lexington ky and Frankfort ky",
+          "address": "Alexandria Dr, Lexington, KY, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Falexandria_dr_lexington_ky_usa%2F1768623867847.png?alt=media&token=256031b7-6fb7-497c-be1f-e132948ce64d",
+          "lat": 38.0492075,
+          "lng": -84.5523033,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T04:43:50.251Z"
+        },
+        "bauer_dr_rockville_md_20853_usa": {
+          "addedAt": "2026-01-16T19:58:29.779Z",
+          "additionalInfo": "I didnt witness it firsthand, but heard about it via instagram and friends at school. Stay safe everyone",
+          "address": "Bauer Dr, Rockville, MD 20853, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fbauer_dr_rockville_md_20853_usa%2F1768593509060.jpg?alt=media&token=da058363-826a-404d-8b4d-877c113f18d4",
+          "lat": 39.0956256,
+          "lng": -77.1096155,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T21:25:45.785Z"
+        },
+        "co_rd_42_cedar_ave_apple_valley_mn_55124_usa": {
+          "addedAt": "2026-01-14T20:34:40.476Z",
+          "additionalInfo": "I could see into the car as they passed me (red car) and could see the ICE agents in the front seats",
+          "address": "Co Rd 42 & Cedar Ave, Apple Valley, MN 55124, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fco_rd_42_cedar_ave_apple_valley_mn_55124_usa%2F1768422878424.jpg?alt=media&token=bd559d40-ca81-4f86-aace-01d1ed617f5b",
+          "lat": 44.7319426,
+          "lng": -93.21786279999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T21:57:20.019Z"
+        },
+        "crosstown_service_rd_minneapolis_mn_55417_usa": {
+          "addedAt": "2026-01-13T22:11:26.688Z",
+          "additionalInfo": "5-10 ice officers setting up fencing outside of the airport. I wasnt able to get a picture but I got a screenshot of the general area right of of u.s 62.",
+          "address": "Crosstown Service Rd, Minneapolis, MN 55417, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fcrosstown_service_rd_minneapolis_mn_55417_usa%2F1768342285902.jpg?alt=media&token=db2299c4-66cf-41fc-899a-98a817332c99",
+          "lat": 44.8981394,
+          "lng": -93.2153123,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T22:33:30.284Z"
+        },
+        "crystal_springs_rd_w_university_place_wa_98466_usa": {
+          "addedAt": "2026-01-14T16:07:20.535Z",
+          "additionalInfo": "Blacked out windows on surveillance cruiser marked with contrasting information... WFPD (Wichita Falls Police Department), Private Investigation/RPI and a badge that reads Raven Legal Task Force Agency. Never spotted this vehicle before. License plate CCZ8959.",
+          "address": "Crystal Springs Rd W, University Place, WA 98466, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fcrystal_springs_rd_w_university_place_wa_98466_usa%2F1768406839005.jpg?alt=media&token=b7a1eb75-3f05-4c23-a142-e500f7b05edf",
+          "lat": 47.2333226,
+          "lng": -122.5477284,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T22:16:09.129Z"
+        },
+        "dyckman_st_new_york_ny_usa": {
+          "addedAt": "2026-01-15T15:59:22.943Z",
+          "additionalInfo": "ICE officers spotted in Bronx, NYC week of January 15, 2026",
+          "address": "Dyckman St, New York, NY, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fdyckman_st_new_york_ny_usa%2F1768492762222.png?alt=media&token=ae1fb9aa-dd62-4a5e-b849-b6f28cdd18cf",
+          "lat": 40.8640594,
+          "lng": -73.9263413,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T05:44:50.554Z"
+        },
+        "e_elliot_rd_s_val_vista_dr_gilbert_az_85234_usa": {
+          "addedAt": "2026-01-15T14:54:31.360Z",
+          "additionalInfo": "I was driving by and noticed a lot of police activity then a masked ICE agent so I pulled over to video tape it. I have more pictures and video of it all.",
+          "address": "E Elliot Rd & S Val Vista Dr, Gilbert, AZ 85234, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fe_elliot_rd_s_val_vista_dr_gilbert_az_85234_usa%2F1768488870541.jpg?alt=media&token=01e7b8e8-d009-49b7-a125-1da8a9ff3572",
+          "lat": 33.3502325,
+          "lng": -111.7557747,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T05:51:23.364Z"
+        },
+        "fl_200_yulee_fl_usa": {
+          "addedAt": "2026-01-15T20:06:04.294Z",
+          "additionalInfo": "HEADS UP:\nICE is right across from Home Depot in Yulee lining up a whole bunch of people.  NC Sherriffs and FHP onsite also",
+          "address": "FL-200, Yulee, FL, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Ffl_200_yulee_fl_usa%2F1768507564031.jpg?alt=media&token=092e26bf-dda7-41b7-8c91-0d1b0f992da1",
+          "lat": 30.629482,
+          "lng": -81.5703184,
+          "reported": 2,
+          "verifiedAt": "2026-01-15T20:18:21.399Z"
+        },
+        "hempel_ave_6th_st_gotha_fl_34786_usa": {
+          "addedAt": "2026-01-15T18:06:35.275Z",
+          "additionalInfo": "Ice grouping up",
+          "address": "Hempel Ave & 6th St, Gotha, FL 34786, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fhempel_ave_6th_st_gotha_fl_34786_usa%2F1768500394314.jpg?alt=media&token=c0fab247-2bf0-43c8-8290-3985dcf385df",
+          "lat": 28.5262871,
+          "lng": -81.5227883,
+          "reported": 4,
+          "verifiedAt": "2026-01-16T05:37:32.742Z"
+        },
+        "holiday_ln_fairfield_ca_94534_usa": {
+          "addedAt": "2026-01-14T16:49:28.914Z",
+          "additionalInfo": "Unmarked security holding can spotted with gov plate.\nDHS SUV also spotted making rotationa near this area.\nStay alert",
+          "address": "Holiday Ln, Fairfield, CA 94534, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fholiday_ln_fairfield_ca_94534_usa%2F1768409367786.jpg?alt=media&token=1e4dbc7a-0020-4831-bc47-1f303a63548d",
+          "lat": 38.2597306,
+          "lng": -122.0619006,
+          "reported": 4,
+          "verifiedAt": "2026-01-14T22:11:46.793Z"
+        },
+        "hwy_rt_286_at_old_frankstown_rd_monroeville_pa_15146_usa": {
+          "addedAt": "2026-01-15T18:26:12.542Z",
+          "additionalInfo": "I was traveling in the south/west bound going down Golden Mile Highway onto Business Rt 22. North/east bound on the opposite side I saw a white roofing van being pulled over. Then I saw a bunch of ICE agents jump out of their vehicles from behind him, ripped the drivers side door open & pulled the driver out of his vehicle. It happened so fast, I couldnt reach for my phone fast enough before they were out of sight behind me. I went back to get a photo of the van & so I could contact the company ",
+          "address": "Hwy Rt 286 at Old Frankstown Rd, Monroeville, PA 15146, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fhwy_rt_286_at_old_frankstown_rd_monroeville_pa_15146_usa%2F1768501571960.jpg?alt=media&token=703ade3a-fc5e-459a-a5f7-9dcf9746cfa9",
+          "lat": 40.445566,
+          "lng": -79.713629,
+          "reported": 2,
+          "verifiedAt": "2026-01-15T20:41:17.500Z"
+        },
+        "i_29_northmoor_mo_usa": {
+          "addedAt": "2026-01-16T17:43:22.526Z",
+          "additionalInfo": "Unmarked white truck not common law enforcement vehicles for this area, pulled over middle aged Hispanic male I believe 2 of them. \nNot sure, but with what\u2019s going on be safe than sorry!",
+          "address": "I-29, Northmoor, MO, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fi_29_northmoor_mo_usa%2F1768585401600.jpg?alt=media&token=06a2ce66-c2bd-4975-9a89-884bcc710a50",
+          "lat": 39.1880437,
+          "lng": -94.602953,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T01:19:42.865Z"
+        },
+        "i_35e_eagan_mn_usa": {
+          "addedAt": "2026-01-13T21:57:22.771Z",
+          "additionalInfo": "On my way home from school I saw ice stop a vehicle, it was about a group of 6 ice agents. If u plan on going to Sam\u2019s club I suggest u don\u2019t because they are right by it. Unfortunately I couldn\u2019t get a photo because we were on the highway :(.",
+          "address": "I-35E, Eagan, MN, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fi_35e_eagan_mn_usa%2F1768341441477.jpg?alt=media&token=a94b1f8d-73e2-41e1-903b-c87906fb4e1e",
+          "lat": 44.8139843,
+          "lng": -93.1769777,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T22:34:16.270Z"
+        },
+        "i_40_nashville_tn_usa": {
+          "addedAt": "2026-01-13T17:40:32.158Z",
+          "additionalInfo": "Single ICE car parked on the side of the highway. I was driving, so the photo is an approximate location from the map",
+          "address": "I-40, Nashville, TN, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fi_40_nashville_tn_usa%2F1768326030979.jpg?alt=media&token=8ecfb13a-db6f-4171-b2ee-dc344c8add25",
+          "lat": 36.1492555,
+          "lng": -86.7833473,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T19:00:37.801Z"
+        },
+        "i_494_minnesota_usa": {
+          "addedAt": "2026-01-13T21:50:11.093Z",
+          "additionalInfo": "About 4-5 ICE vehicles with lights on that trapped in a small white sedan. 8-10 officers. Caused traffic and the traffic is present on maps still.",
+          "address": "I-494, Minnesota, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fi_494_minnesota_usa%2F1768341009664.jpg?alt=media&token=39de621b-5d34-4c8d-be2e-63de4e36165c",
+          "lat": 44.8628199,
+          "lng": -93.2098829,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T22:34:48.909Z"
+        },
+        "i_5_redding_ca_usa": {
+          "addedAt": "2026-01-16T19:52:37.577Z",
+          "additionalInfo": "Possible ice, gray Durango and black Chevy truck both California plates. Saw thru windshield had ice uniforms",
+          "address": "I-5, Redding, CA, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fi_5_redding_ca_usa%2F1768593155564.jpg?alt=media&token=6d9834fb-3aa8-40f6-95c5-e525b3ca1c31",
+          "lat": 40.5920963,
+          "lng": -122.3603985,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T21:26:23.409Z"
+        },
+        "i_95_walterboro_sc_usa": {
+          "addedAt": "2026-01-16T18:54:03.883Z",
+          "additionalInfo": "Two, in their vests",
+          "address": "I-95, Walterboro, SC, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fi_95_walterboro_sc_usa%2F1768589640687.jpg?alt=media&token=ef7fe98f-f4cd-4d3b-9e15-c75b88b10a93",
+          "lat": 32.9028019,
+          "lng": -80.7043673,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T00:40:39.804Z"
+        },
+        "lake_sammamish_washington_usa": {
+          "addedAt": "2026-01-15T21:05:46.365Z",
+          "additionalInfo": "Dept of Homeland Security copter flying south from Bellingham, N741C",
+          "address": "Lake Sammamish, Washington, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Flake_sammamish_washington_usa%2F1768511145421.jpg?alt=media&token=b73e5cc8-0dc3-4b89-9e5a-415964e1d6ed",
+          "lat": 47.6084598,
+          "lng": -122.0878197,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T05:36:25.755Z"
+        },
+        "lindenwood_dr_olney_md_20832_usa": {
+          "addedAt": "2026-01-13T21:57:25.084Z",
+          "additionalInfo": "Several officers in plainclothes with police vests were stopped along the street and talking to people. Left area at 4:45pm.",
+          "address": "Lindenwood Dr, Olney, MD 20832, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Flindenwood_dr_olney_md_20832_usa%2F1768341444368.jpg?alt=media&token=9e6c575d-3547-4619-a3d4-75c3e9af1260",
+          "lat": 39.1607957,
+          "lng": -77.0551774,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T22:33:51.017Z"
+        },
+        "memorial_hwy_new_rochelle_ny_10801_usa": {
+          "addedAt": "2026-01-13T17:48:55.576Z",
+          "additionalInfo": "Ice are at they apartments",
+          "address": "Memorial Hwy, New Rochelle, NY 10801, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fmemorial_hwy_new_rochelle_ny_10801_usa%2F1768326534136.jpg?alt=media&token=94a3dde8-bc1e-4832-847e-39ea3cb750a7",
+          "lat": 40.9125933,
+          "lng": -73.7860945,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T19:00:27.621Z"
+        },
+        "minnesota_dr_anchorage_ak_usa": {
+          "addedAt": "2026-01-15T21:11:02.427Z",
+          "additionalInfo": "DHS vehicle clearly marked driving down Minnesota towards downtown",
+          "address": "Minnesota Dr, Anchorage, AK, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fminnesota_dr_anchorage_ak_usa%2F1768511439145.jpg?alt=media&token=6e3ceaff-b99c-46cd-97e2-e7094675f644",
+          "lat": 61.1665661,
+          "lng": -149.9152379,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T05:35:46.504Z"
+        },
+        "mn_65_53rd_ave_ne_fridley_mn_55421_usa": {
+          "addedAt": "2026-01-16T18:50:15.725Z",
+          "additionalInfo": "stopped vehicle in the middle of traffic at an intersection",
+          "address": "MN-65 & 53rd Ave NE, Fridley, MN 55421, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fmn_65_53rd_ave_ne_fridley_mn_55421_usa%2F1768589414443.jpg?alt=media&token=31cf2ad0-1c5a-419a-be73-2978fd58cc68",
+          "lat": 45.0644863,
+          "lng": -93.24745349999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-17T00:40:46.376Z"
+        },
+        "n_32nd_st_orchard_st_lincoln_ne_68503_usa": {
+          "addedAt": "2026-01-13T23:45:42.518Z",
+          "additionalInfo": "Large Law Enforcement Presence:\nOrchard St & N 32nd St\nSeveral NSP troopers and undercover officers are currently on scene at what appears to be a standoff. Law enforcement officers are issuing commands for an individual to exit a residence.\nA group of people has gathered nearby and is shouting at law enforcement. Some individuals in the crowd are claiming the operation is related to ICE enforcement.\nWe can now confirm that law enforcement officers wearing HSI and FBI vests are present on scene.",
+          "address": "N 32nd St & Orchard St, Lincoln, NE 68503, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fn_32nd_st_orchard_st_lincoln_ne_68503_usa%2F1768347941739.jpg?alt=media&token=7a6f1c2f-0db0-473f-9ec8-0f5d15ec88f9",
+          "lat": 40.82529,
+          "lng": -96.675248,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T02:13:01.451Z"
+        },
+        "n_tamarind_ave_palm_beach_lakes_blvd_west_palm_beach_fl_33401_usa": {
+          "addedAt": "2026-01-14T14:54:56.725Z",
+          "additionalInfo": "ICE patrols surrounding a house with one Hispanic woman outside in front at 8 am possibly 6 officers or more and one observer on the street",
+          "address": "N Tamarind Ave & Palm Beach Lakes Blvd, West Palm Beach, FL 33401, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fn_tamarind_ave_palm_beach_lakes_blvd_west_palm_beach_fl_33401_usa%2F1768402495177.jpg?alt=media&token=6585d3f3-39e3-41c6-9796-526e1e315b65",
+          "lat": 26.7247011,
+          "lng": -80.06167420000001,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T22:17:56.271Z"
+        },
+        "nicollet_ave_hwy_13_w_burnsville_mn_55337_usa": {
+          "addedAt": "2026-01-14T14:52:46.039Z",
+          "additionalInfo": "3 Ford escape type vehicles pulled over a car wearing tan masks and bullet proof vests. I didn\u2019t get a photo while driving.",
+          "address": "Nicollet Ave & Hwy 13 W, Burnsville, MN 55337, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fnicollet_ave_hwy_13_w_burnsville_mn_55337_usa%2F1768402365083.jpg?alt=media&token=97d083a2-542f-4320-89ee-07157f65734a",
+          "lat": 44.7771269,
+          "lng": -93.2780887,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T22:18:51.242Z"
+        },
+        "northgate_dr_washington_98277_usa": {
+          "addedAt": "2026-01-13T19:27:36.871Z",
+          "additionalInfo": "Guy in gray hoodie, medium-dark wash denim, black tactical style vest, and grayish boots or sneakers. Walked down to the dead end road of northgate drive. Paused in front of a house a few doors down, rocking on his feet staring at the house till he noticed me and then started to walk back and turned down salal street.",
+          "address": "Northgate Dr, Washington 98277, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fnorthgate_dr_washington_98277_usa%2F1768332453999.jpg?alt=media&token=0b62bf8d-87cd-45f1-871e-4043c683e8cd",
+          "lat": 48.3678704,
+          "lng": -122.6509822,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T22:44:33.218Z"
+        },
+        "outlets_at_albertville_albertville_mn_55301_usa": {
+          "addedAt": "2026-01-13T17:12:47.957Z",
+          "additionalInfo": "In the parking lot at the outlet mall",
+          "address": "Outlets at Albertville, Albertville, MN 55301, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Foutlets_at_albertville_albertville_mn_55301_usa%2F1768324367239.jpg?alt=media&token=42522acf-4fe4-4ffc-9925-bab967843ede",
+          "lat": 45.2446919,
+          "lng": -93.6665143,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T19:00:50.887Z"
+        },
+        "roosevelt_st_anoka_mn_55303_usa": {
+          "addedAt": "2026-01-16T21:52:04.056Z",
+          "additionalInfo": "targeted operation with 5 vehicles. anoka county sheriff was there as well. detaining people at their home.",
+          "address": "Roosevelt St, Anoka, MN 55303, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Froosevelt_st_anoka_mn_55303_usa%2F1768600322937.jpg?alt=media&token=3ef2b05c-cccf-4f6f-b4b5-4c53ccd05940",
+          "lat": 45.2154783,
+          "lng": -93.3610849,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T21:52:49.265Z"
+        },
+        "s_240th_st_kent_wa_usa": {
+          "addedAt": "2026-01-16T21:12:37.446Z",
+          "additionalInfo": "Ice was here 2 days ago",
+          "address": "S 240th St, Kent, WA, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fs_240th_st_kent_wa_usa%2F1768597919470.jpg?alt=media&token=bb9a78aa-e1bc-4779-803a-edcc578983eb",
+          "lat": 47.3868603,
+          "lng": -122.2129158,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T21:14:13.732Z"
+        },
+        "s_kirkwood_rd_swan_glen_dr_houston_tx_77099_usa": {
+          "addedAt": "2026-01-15T15:05:09.422Z",
+          "additionalInfo": "Stopped someone they seemed to be watching. One guy in plainclothes (yellow sweater and jeans), other in uniform",
+          "address": "S Kirkwood Rd & Swan Glen Dr, Houston, TX 77099, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fs_kirkwood_rd_swan_glen_dr_houston_tx_77099_usa%2F1768489506658.jpg?alt=media&token=a0bad3a2-c459-4785-a5f8-272a2ab38c42",
+          "lat": 29.667433,
+          "lng": -95.5887424,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T05:49:14.190Z"
+        },
+        "sand_point_way_ne_seattle_wa_98125_usa": {
+          "addedAt": "2026-01-15T18:49:23.911Z",
+          "additionalInfo": "5 or 6 large vehicles with blacked out windows full of men rolling slowly south on Sand Point Way near Lake City",
+          "address": "Sand Point Way NE, Seattle, WA 98125, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fsand_point_way_ne_seattle_wa_98125_usa%2F1768502960330.jpg?alt=media&token=ff552b27-bc5a-4383-8848-6de7d8c1ec27",
+          "lat": 47.7115865,
+          "lng": -122.281451,
+          "reported": 2,
+          "verifiedAt": "2026-01-15T20:39:29.699Z"
+        },
+        "shenandoah_dr_shakopee_mn_55379_usa": {
+          "addedAt": "2026-01-15T15:02:44.742Z",
+          "additionalInfo": "3 vehicles pictured had a driver pulled over.  When I turned around again the driver was gone and his truck was left on the side of the road.",
+          "address": "Shenandoah Dr, Shakopee, MN 55379, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fshenandoah_dr_shakopee_mn_55379_usa%2F1768489363460.jpg?alt=media&token=af5411c0-2d6e-4385-a32f-1049bea0c552",
+          "lat": 44.79247,
+          "lng": -93.4887102,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T05:51:10.147Z"
+        },
+        "snelling_ave_e_43rd_st_minneapolis_mn_55406_usa": {
+          "addedAt": "2026-01-15T20:32:37.158Z",
+          "additionalInfo": "ICE spotted on the corner of Snelling and 43rd street yesterday and today several times. PRESS is labeled on side of vehicle.",
+          "address": "Snelling Ave & E 43rd St, Minneapolis, MN 55406, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fsnelling_ave_e_43rd_st_minneapolis_mn_55406_usa%2F1768509156340.jpg?alt=media&token=d0f2b823-9295-4417-830a-26d433638fdf",
+          "lat": 44.9251416,
+          "lng": -93.21943929999999,
+          "reported": 2,
+          "verifiedAt": "2026-01-15T20:34:25.267Z"
+        },
+        "southcrest_recreation_center_40th_crest_dr_san_diego_ca_92113_usa": {
+          "addedAt": "2026-01-15T23:45:38.475Z",
+          "additionalInfo": "Ice by southcrest park, in white explorer",
+          "address": "Southcrest Recreation Center, 40TH Crest Dr, San Diego, CA 92113, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fsouthcrest_recreation_center_40th_crest_dr_san_diego_ca_92113_usa%2F1768520737515.png?alt=media&token=3b05263d-42f7-4440-a130-36e4f5e9d975",
+          "lat": 32.693072,
+          "lng": -117.106011,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T00:02:29.113Z"
+        },
+        "state_rd_52_florida_usa": {
+          "addedAt": "2026-01-13T14:26:31.074Z",
+          "additionalInfo": "Border patrol parked on highway",
+          "address": "State Rd 52, Florida, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fstate_rd_52_florida_usa%2F1768314390387.jpg?alt=media&token=c1966515-193b-4686-8e4d-0803c34baf1f",
+          "lat": 28.3218193,
+          "lng": -82.4438993,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T19:01:09.232Z"
+        },
+        "university_ave_nw_minneapolis_mn_55448_usa": {
+          "addedAt": "2026-01-16T00:45:52.365Z",
+          "additionalInfo": "ICE vans were spotted driving northwest on highway 47.",
+          "address": "University Ave NW, Minneapolis, MN 55448, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Funiversity_ave_nw_minneapolis_mn_55448_usa%2F1768524350552.jpg?alt=media&token=485dd9d9-1d99-4a3f-854c-dc48f09fdf86",
+          "lat": 45.1681518,
+          "lng": -93.2663758,
+          "reported": 2,
+          "verifiedAt": "2026-01-16T05:30:33.879Z"
+        },
+        "us_1_cherryfield_me_usa": {
+          "addedAt": "2026-01-14T00:29:40.520Z",
+          "additionalInfo": "Was customs a border patrol vehicle, pulled over on the side of the road. May be nothing, but thought I\u2019d report just in case.",
+          "address": "US-1, Cherryfield, ME, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fus_1_cherryfield_me_usa%2F1768350578789.jpg?alt=media&token=7ebb61c3-b713-4c88-b85d-6284e81b728d",
+          "lat": 44.5986717,
+          "lng": -67.9182363,
+          "reported": 2,
+          "verifiedAt": "2026-01-14T02:11:02.631Z"
+        },
+        "us_52_osseo_mn_55369_usa": {
+          "addedAt": "2026-01-13T21:49:43.206Z",
+          "additionalInfo": "ICE blocking lanes on I-94 southbound making an arrest/detainment. Agents in ICE vests visually confirmed but I couldnt get a picture as I was about to take the 610 exit.",
+          "address": "US-52, Osseo, MN 55369, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fus_52_osseo_mn_55369_usa%2F1768340982297.jpg?alt=media&token=4b3127fd-e501-4bce-9271-21f84e51f14b",
+          "lat": 45.1228425,
+          "lng": -93.4826667,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T22:36:15.906Z"
+        },
+        "w_82nd_st_denison_ave_cleveland_oh_44102_usa": {
+          "addedAt": "2026-01-13T13:51:58.269Z",
+          "additionalInfo": "Door Knocking, 4 Officers, 4 Cars Ford Escapes Sunday January 11th at 10:50 am",
+          "address": "W 82nd St & Denison Ave, Cleveland, OH 44102, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fw_82nd_st_denison_ave_cleveland_oh_44102_usa%2F1768312317300.jpg?alt=media&token=5fa211c3-9fd1-4be7-830c-0cccf57269bd",
+          "lat": 41.4633669,
+          "lng": -81.7414148,
+          "reported": 2,
+          "verifiedAt": "2026-01-13T19:01:21.059Z"
+        },
+        "wellington_ave_cranston_ri_usa": {
+          "addedAt": "2026-01-15T20:03:58.357Z",
+          "additionalInfo": "ICE was involved in a chase on I-95 resulting in a crash into a fence near Wellington Ave in Cranston, RI. Men in high vis work clothes were being pursued. PD, ICE, and State Troopers are still on scene.",
+          "address": "Wellington Ave, Cranston, RI, USA",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/iceinmyarea.firebasestorage.app/o/reports%2Fverified%2Fwellington_ave_cranston_ri_usa%2F1768507437742.jpg?alt=media&token=e5507af0-c9e3-4e4f-bf8c-f75d15d12487",
+          "lat": 41.773324,
+          "lng": -71.427118,
+          "reported": 2,
+          "verifiedAt": "2026-01-15T20:18:35.086Z"
+        }
+      }
+    },
+    "a": "d"
+  }
+}

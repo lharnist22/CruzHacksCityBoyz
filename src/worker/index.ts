@@ -8,6 +8,7 @@ import {
 } from "@getmocha/users-service/backend";
 import { getCookie, setCookie } from "hono/cookie";
 import { v4 as uuidv4 } from "uuid";
+import { NotificationService } from '@/worker/services/NotificationService';
 
 type Env = {
   MOCHA_USERS_SERVICE_API_URL: string;
@@ -81,6 +82,121 @@ app.get("/api/logout", async (c) => {
   });
 
   return c.json({ success: true }, 200);
+});
+
+// ==================== NOTIFICATION ENDPOINTS ====================
+
+// Get notification preferences
+app.get("/api/notification-preferences", authMiddleware, async (c) => {
+  const user = c.get("user");
+  if (!user) return c.json({ error: "Unauthorized" }, 401);
+
+  const preferences = await c.env.DB.prepare(
+    "SELECT * FROM user_notification_preferences WHERE user_id = ?"
+  )
+    .bind(user.id)
+    .first();
+
+  return c.json(preferences || {
+    user_id: user.id,
+    phone_number: null,
+    notification_state: null,
+    notification_county: null,
+    receive_sms_notifications: false
+  });
+});
+
+// Update notification preferences
+app.put("/api/notification-preferences", authMiddleware, async (c) => {
+  const user = c.get("user");
+  if (!user) return c.json({ error: "Unauthorized" }, 401);
+
+  const body = await c.req.json();
+  
+  // Validate phone number if provided
+  if (body.phone_number && body.phone_number.trim() !== "") {
+    const phoneRegex = /^\+[1-9]\d{1,14}$/;
+    if (!phoneRegex.test(body.phone_number)) {
+      return c.json({ 
+        error: "Invalid phone number format. Use international format: +1234567890" 
+      }, 400);
+    }
+  }
+
+  const existing = await c.env.DB.prepare(
+    "SELECT id FROM user_notification_preferences WHERE user_id = ?"
+  )
+    .bind(user.id)
+    .first();
+
+  const phoneNumber = body.phone_number?.trim() || null;
+  const notificationState = body.notification_state?.trim() || null;
+  const notificationCounty = body.notification_county?.trim() || null;
+  const receiveSMS = body.receive_sms_notifications ? 1 : 0;
+
+  if (existing) {
+    await c.env.DB.prepare(`
+      UPDATE user_notification_preferences 
+      SET phone_number = ?, 
+          notification_state = ?,
+          notification_county = ?,
+          receive_sms_notifications = ?,
+          updated_at = CURRENT_TIMESTAMP
+      WHERE user_id = ?
+    `)
+      .bind(phoneNumber, notificationState, notificationCounty, receiveSMS, user.id)
+      .run();
+  } else {
+    await c.env.DB.prepare(`
+      INSERT INTO user_notification_preferences 
+      (user_id, phone_number, notification_state, notification_county, receive_sms_notifications)
+      VALUES (?, ?, ?, ?, ?)
+    `)
+      .bind(user.id, phoneNumber, notificationState, notificationCounty, receiveSMS)
+      .run();
+  }
+
+  const updated = await c.env.DB.prepare(
+    "SELECT * FROM user_notification_preferences WHERE user_id = ?"
+  )
+    .bind(user.id)
+    .first();
+
+  return c.json(updated);
+});
+
+// Handle Twilio webhook for SMS replies (STOP, START, HELP)
+app.post("/api/twilio/webhook", async (c) => {
+  const formData = await c.req.formData();
+  const from = formData.get('From') as string;
+  const body = formData.get('Body') as string;
+  const command = body.trim().toUpperCase();
+
+  console.log(`📱 Twilio webhook: ${from} sent "${command}"`);
+
+  if (command === 'STOP') {
+    await c.env.DB.prepare(`
+      UPDATE user_notification_preferences 
+      SET receive_sms_notifications = 0,
+          updated_at = CURRENT_TIMESTAMP
+      WHERE phone_number = ?
+    `).bind(from).run();
+    
+    return c.text(`You have been unsubscribed from SafeWatch alerts. To resubscribe, reply START.`);
+  } else if (command === 'START') {
+    await c.env.DB.prepare(`
+      UPDATE user_notification_preferences 
+      SET receive_sms_notifications = 1,
+          updated_at = CURRENT_TIMESTAMP
+      WHERE phone_number = ?
+    `).bind(from).run();
+    
+    return c.text(`You have been resubscribed to SafeWatch alerts. To unsubscribe, reply STOP.`);
+  } else if (command === 'HELP') {
+    return c.text(`SafeWatch Alerts: Reply STOP to unsubscribe, START to resubscribe. For assistance, visit https://getmocha.com`);
+  }
+
+  return c.text(`Unknown command. For help, reply HELP. To unsubscribe, reply STOP.`);
 });
 
 // Raid Reports API
@@ -172,6 +288,19 @@ app.post(
     )
       .bind(result.meta.last_row_id)
       .first();
+
+    // Send notifications in background (don't await - let it run in background)
+    c.executionCtx.waitUntil(
+      (async () => {
+        try {
+          const notificationService = new NotificationService(c.env);
+          const result = await notificationService.sendBulkNotifications(report);
+          console.log(`📊 Notification results: ${result.sent} sent, ${result.failed} failed`);
+        } catch (error) {
+          console.error('❌ Failed to send notifications:', error);
+        }
+      })()
+    );
 
     return c.json(report, 201);
   }
