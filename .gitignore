@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # dependencies
 node_modules/
 
@@ -14,7 +13,3 @@ node_modules/
 
 # Package-lock.json
 package-lock.json
-
-=======
-node_modules
->>>>>>> 4d995f895b1d16a11e15299776da50667459a1f4

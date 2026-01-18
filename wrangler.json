@@ -1,32 +1,3 @@
-<<<<<<< HEAD
-{
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "019bc9ef-2657-7066-97bd-9b950f3e2289",
-  "main": "./src/worker/index.ts",
-  "compatibility_date": "2025-06-17",
-  "compatibility_flags": ["nodejs_compat"],
-  "observability": {
-    "enabled": true
-  },
-  "upload_source_maps": true,
-  "assets": {
-    "not_found_handling": "single-page-application"
-  },
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "019bc9ef-2657-7066-97bd-9b950f3e2289",
-      "database_id": "019bc9ef-2657-7066-97bd-9b950f3e2289"
-    }
-  ],
-  "r2_buckets": [
-    {
-      "binding": "R2_BUCKET",
-      "bucket_name": "019bc9ef-2657-7066-97bd-9b950f3e2289"
-    }
-  ]
-}
-=======
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "019bc9ef-2657-7066-97bd-9b950f3e2289",
@@ -55,4 +26,3 @@
     }
   ]
 }
->>>>>>> 4d995f895b1d16a11e15299776da50667459a1f4
